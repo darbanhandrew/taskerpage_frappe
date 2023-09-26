@@ -1,0 +1,2410 @@
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType new-doctype-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=7df175f354582d5bca9c344f81a4e5767ef142e5020cd3659e099020&doctype=DocType&docname=new-doctype-2',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=7df175f354582d5bca9c344f81a4e5767ef142e5020cd3659e099020&doctype=DocType&docname=new-doctype-2 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=7df175f354582d5bca9c344f81a4e5767ef142e5020cd3659e099020&doctype=DocType&docname=new-doctype-2',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType new-doctype-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"DocType new-doctype-2 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 11 Sep 2023 16:53:50 GMT',
+      'content-type': 'application/json',
+      'content-length': '210',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Mon, 11 Sep 2023 16:53:50 GMT',
+      'content-type': 'application/json',
+      'content-length': '210',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=7df175f354582d5bca9c344f81a4e5767ef142e5020cd3659e099020&doctype=DocType&docname=new-doctype-2 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType new-doctype-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=7df175f354582d5bca9c344f81a4e5767ef142e5020cd3659e099020&doctype=DocType&docname=new-doctype-2'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Skill new-skill-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-1 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Skill new-skill-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Skill new-skill-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 09:39:57 GMT',
+      'content-type': 'application/json',
+      'content-length': '206',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 09:39:57 GMT',
+      'content-type': 'application/json',
+      'content-length': '206',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-1 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Skill new-skill-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Subscription Plan new-subscription-plan-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Subscription%20Plan&docname=new-subscription-plan-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Subscription%20Plan&docname=new-subscription-plan-1 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Subscription%20Plan&docname=new-subscription-plan-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Subscription Plan new-subscription-plan-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Subscription Plan new-subscription-plan-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 09:42:38 GMT',
+      'content-type': 'application/json',
+      'content-length': '230',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 09:42:38 GMT',
+      'content-type': 'application/json',
+      'content-length': '230',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Subscription%20Plan&docname=new-subscription-plan-1 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Subscription Plan new-subscription-plan-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Subscription%20Plan&docname=new-subscription-plan-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Workflow new-workflow-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-1 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Workflow new-workflow-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Workflow new-workflow-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 09:54:55 GMT',
+      'content-type': 'application/json',
+      'content-length': '212',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 09:54:55 GMT',
+      'content-type': 'application/json',
+      'content-length': '212',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-1 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Workflow new-workflow-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Workflow new-workflow-3 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-3',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-3 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-3',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Workflow new-workflow-3 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Workflow new-workflow-3 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 10:05:15 GMT',
+      'content-type': 'application/json',
+      'content-length': '212',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 10:05:15 GMT',
+      'content-type': 'application/json',
+      'content-length': '212',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-3 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Workflow new-workflow-3 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Workflow&docname=new-workflow-3'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"App Campaign new-app-campaign-3 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=App%20Campaign&docname=new-app-campaign-3',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=App%20Campaign&docname=new-app-campaign-3 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=App%20Campaign&docname=new-app-campaign-3',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"App Campaign new-app-campaign-3 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"App Campaign new-app-campaign-3 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 10:14:29 GMT',
+      'content-type': 'application/json',
+      'content-length': '220',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 10:14:29 GMT',
+      'content-type': 'application/json',
+      'content-length': '220',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=App%20Campaign&docname=new-app-campaign-3 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"App Campaign new-app-campaign-3 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=App%20Campaign&docname=new-app-campaign-3'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Skill new-skill-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-2',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-2 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-2',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Skill new-skill-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Skill new-skill-2 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 10:49:17 GMT',
+      'content-type': 'application/json',
+      'content-length': '206',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 10:49:17 GMT',
+      'content-type': 'application/json',
+      'content-length': '206',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-2 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Skill new-skill-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=31ac470005b2d6661f29667cd93ad647ac976da39d62439b646f0aaa&doctype=Skill&docname=new-skill-2'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Task new-customer-task-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Task new-customer-task-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Customer Task new-customer-task-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 11:14:45 GMT',
+      'content-type': 'application/json',
+      'content-length': '222',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 11:14:45 GMT',
+      'content-type': 'application/json',
+      'content-length': '222',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Task new-customer-task-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Task new-customer-task-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Task new-customer-task-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Customer Task new-customer-task-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 11:33:35 GMT',
+      'content-type': 'application/json',
+      'content-length': '222',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 13 Sep 2023 11:33:35 GMT',
+      'content-type': 'application/json',
+      'content-length': '222',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Task new-customer-task-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=e5e7d8e26ef9dfced4960819a92e15482dddfdd273110acd1a783a17&doctype=Customer%20Task&docname=new-customer-task-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Internal Server Error
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 500,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 500,
+      statusMessage: 'Internal Server Error',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '<html>\n' +
+        '  <head>\n' +
+        '    <title>Internal Server Error</title>\n' +
+        '  </head>\n' +
+        '  <body>\n' +
+        '    <h1><p>Internal Server Error</p></h1>\n' +
+        '    \n' +
+        '  </body>\n' +
+        '</html>\n',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=ee2b4b12d5515fe83f399e92765a56b5fb9b48d915b3334f04116b9b&doctype=Payment%20Request&docname=ACC-PRQ-2023-00004',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=ee2b4b12d5515fe83f399e92765a56b5fb9b48d915b3334f04116b9b&doctype=Payment%20Request&docname=ACC-PRQ-2023-00004 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ee2b4b12d5515fe83f399e92765a56b5fb9b48d915b3334f04116b9b&doctype=Payment%20Request&docname=ACC-PRQ-2023-00004',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '<html>\n' +
+      '  <head>\n' +
+      '    <title>Internal Server Error</title>\n' +
+      '  </head>\n' +
+      '  <body>\n' +
+      '    <h1><p>Internal Server Error</p></h1>\n' +
+      '    \n' +
+      '  </body>\n' +
+      '</html>\n',
+    body: {},
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 19:25:33 GMT',
+      'content-type': 'text/html',
+      'content-length': '141',
+      connection: 'close'
+    },
+    header: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 19:25:33 GMT',
+      'content-type': 'text/html',
+      'content-length': '141',
+      connection: 'close'
+    },
+    statusCode: 500,
+    status: 500,
+    statusType: 5,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: false,
+    serverError: true,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=ee2b4b12d5515fe83f399e92765a56b5fb9b48d915b3334f04116b9b&doctype=Payment%20Request&docname=ACC-PRQ-2023-00004 (500)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 500,
+      text: '<html>\n' +
+        '  <head>\n' +
+        '    <title>Internal Server Error</title>\n' +
+        '  </head>\n' +
+        '  <body>\n' +
+        '    <h1><p>Internal Server Error</p></h1>\n' +
+        '    \n' +
+        '  </body>\n' +
+        '</html>\n',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=ee2b4b12d5515fe83f399e92765a56b5fb9b48d915b3334f04116b9b&doctype=Payment%20Request&docname=ACC-PRQ-2023-00004'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: false,
+    unprocessableEntity: false,
+    type: 'text/html',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Appointment new-customer-appointment-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=Customer%20Appointment&docname=new-customer-appointment-2',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=Customer%20Appointment&docname=new-customer-appointment-2 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=Customer%20Appointment&docname=new-customer-appointment-2',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Appointment new-customer-appointment-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Customer Appointment new-customer-appointment-2 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 21:42:41 GMT',
+      'content-type': 'application/json',
+      'content-length': '236',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 21:42:41 GMT',
+      'content-type': 'application/json',
+      'content-length': '236',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=Customer%20Appointment&docname=new-customer-appointment-2 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Customer Appointment new-customer-appointment-2 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=Customer%20Appointment&docname=new-customer-appointment-2'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType new-doctype-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=new-doctype-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=new-doctype-1 HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=new-doctype-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType new-doctype-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"DocType new-doctype-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 22:05:57 GMT',
+      'content-type': 'application/json',
+      'content-length': '210',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 22:05:57 GMT',
+      'content-type': 'application/json',
+      'content-length': '210',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=new-doctype-1 (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType new-doctype-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=new-doctype-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType Customer Bid not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'https://taskerpage.com/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=Customer%20Bid',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'https:',
+      host: 'taskerpage.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [TLSSocket],
+      connection: [TLSSocket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=Customer%20Bid HTTP/1.1\r\n' +
+        'Host: taskerpage.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=Customer%20Bid',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'taskerpage.com',
+      protocol: 'https:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType Customer Bid not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"DocType Customer Bid not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 22:06:58 GMT',
+      'content-type': 'application/json',
+      'content-length': '209',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Fri, 15 Sep 2023 22:06:58 GMT',
+      'content-type': 'application/json',
+      'content-length': '209',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=Customer%20Bid (404)
+        at Response.toError (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"DocType Customer Bid not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=c2e2304123347aeb7d5ad224509316bb7d0710037b93db83fa6e6ddb&doctype=DocType&docname=Customer%20Bid'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+No response for doc_subscribe

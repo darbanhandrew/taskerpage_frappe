@@ -1,0 +1,635 @@
+{
+ "etype": "OutgoingEmailError",
+ "evalue": "OutgoingEmailError('Please setup default Email Account from Setup > Email > Email Account')",
+ "exception": {
+  "args": [
+   40,
+   39,
+   80,
+   108,
+   101,
+   97,
+   115,
+   101,
+   32,
+   115,
+   101,
+   116,
+   117,
+   112,
+   32,
+   100,
+   101,
+   102,
+   97,
+   117,
+   108,
+   116,
+   32,
+   69,
+   109,
+   97,
+   105,
+   108,
+   32,
+   65,
+   99,
+   99,
+   111,
+   117,
+   110,
+   116,
+   32,
+   102,
+   114,
+   111,
+   109,
+   32,
+   83,
+   101,
+   116,
+   117,
+   112,
+   32,
+   62,
+   32,
+   69,
+   109,
+   97,
+   105,
+   108,
+   32,
+   62,
+   32,
+   69,
+   109,
+   97,
+   105,
+   108,
+   32,
+   65,
+   99,
+   99,
+   111,
+   117,
+   110,
+   116,
+   39,
+   44,
+   41
+  ],
+  "http_status_code": [
+   53,
+   48,
+   49
+  ],
+  "with_traceback": [
+   60,
+   98,
+   117,
+   105,
+   108,
+   116,
+   45,
+   105,
+   110,
+   32,
+   109,
+   101,
+   116,
+   104,
+   111,
+   100,
+   32,
+   119,
+   105,
+   116,
+   104,
+   95,
+   116,
+   114,
+   97,
+   99,
+   101,
+   98,
+   97,
+   99,
+   107,
+   32,
+   111,
+   102,
+   32,
+   79,
+   117,
+   116,
+   103,
+   111,
+   105,
+   110,
+   103,
+   69,
+   109,
+   97,
+   105,
+   108,
+   69,
+   114,
+   114,
+   111,
+   114,
+   32,
+   111,
+   98,
+   106,
+   101,
+   99,
+   116,
+   62
+  ]
+ },
+ "frames": [
+  {
+   "call": "(request=<Request 'https://erp.visitouriran.com/api/method/frappe.desk.form.save.savedocs' [POST]>)",
+   "dump": {
+    "frappe. api": "<module 'frappe.api' from '/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py'>",
+    "frappe.api. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "response": "None"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py",
+   "func": "application",
+   "lines": {
+    "92": "",
+    "93": "\t\telif request.path.startswith(\"/api/\"):",
+    "94": "\t\t\tresponse = frappe.api.handle()",
+    "95": "",
+    "96": "\t\telif request.path.startswith(\"/backups\"):"
+   },
+   "lnum": 94
+  },
+  {
+   "call": "()",
+   "dump": {
+    "frappe. handler": "<module 'frappe.handler' from '/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py'>",
+    "frappe.handler. handle": "<function handle>",
+    "global frappe": "<module 'frappe' from '/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py",
+   "func": "handle",
+   "lines": {
+    "52": "\tif call == \"method\":",
+    "53": "\t\tfrappe.local.form_dict.cmd = doctype",
+    "54": "\t\treturn frappe.handler.handle()",
+    "55": "",
+    "56": "\telif call == \"resource\":"
+   },
+   "lnum": 54
+  },
+  {
+   "call": "()",
+   "dump": {
+    "cmd": "'frappe.desk.form.save.savedocs'",
+    "data": "None",
+    "global execute_cmd": "<function execute_cmd>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "handle",
+   "lines": {
+    "45": "",
+    "46": "\tif cmd != \"login\":",
+    "47": "\t\tdata = execute_cmd(cmd)",
+    "48": "",
+    "49": "\t# data can be an empty string or list which are valid responses"
+   },
+   "lnum": 47
+  },
+  {
+   "call": "(cmd='frappe.desk.form.save.savedocs', from_async=False)",
+   "dump": {
+    "frappe. call": "<function call>",
+    "frappe. form_dict": "{'doc': '{\"owner\":\"Administrator\",\"docstatus\":0,... 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}",
+    "global frappe": "<module 'frappe' from '/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "method": "<function savedocs>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py",
+   "func": "execute_cmd",
+   "lines": {
+    "83": "\t\tis_valid_http_method(method)",
+    "84": "",
+    "85": "\treturn frappe.call(method, **frappe.form_dict)",
+    "86": "",
+    "87": ""
+   },
+   "lnum": 85
+  },
+  {
+   "call": "(fn=<function savedocs>, *args=(), **kwargs={'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs', 'doc': '{\"owner\":\"Administrator\",\"docstatus\":0,\"idx\":0,\"...stomer Service\",\"cost_center\":\"Visitouriran - V\"}'})",
+   "dump": {
+    "args": "()",
+    "fn": "<function savedocs>",
+    "newargs": "{'action': 'Save', 'doc': '{\"owner\":\"Administrator\",\"docstatus\":0,\"idx\":0,\"...stomer Service\",\"cost_center\":\"Visitouriran - V\"}'}"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "call",
+   "lines": {
+    "1620": "\tnewargs = get_newargs(fn, kwargs)",
+    "1621": "",
+    "1622": "\treturn fn(*args, **newargs)",
+    "1623": "",
+    "1624": ""
+   },
+   "lnum": 1622
+  },
+  {
+   "call": "(doc=<Project: PROJ-0001>, action='Save')",
+   "dump": {
+    "doc": "<Project: PROJ-0001>",
+    "doc. save": "<bound method Document.save of <Project: PROJ-0001>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/desk/form/save.py",
+   "func": "savedocs",
+   "lines": {
+    "26": "\t}[action]",
+    "27": "",
+    "28": "\tdoc.save()",
+    "29": "",
+    "30": "\t# update recent documents"
+   },
+   "lnum": 28
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "self": "<Project: PROJ-0001>",
+    "self. _save": "<bound method Document._save of <Project: PROJ-0001>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "save",
+   "lines": {
+    "305": "\tdef save(self, *args, **kwargs):",
+    "306": "\t\t\"\"\"Wrapper for _save\"\"\"",
+    "307": "\t\treturn self._save(*args, **kwargs)",
+    "308": "",
+    "309": "\tdef _save(self, ignore_permissions=None, ignore_version=None) -> \"Document\":"
+   },
+   "lnum": 307
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>, ignore_permissions=None, ignore_version=None)",
+   "dump": {
+    "self": "<Project: PROJ-0001>",
+    "self. insert": "<bound method Document.insert of <Project: PROJ-0001>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "_save",
+   "lines": {
+    "327": "",
+    "328": "\t\tif self.get(\"__islocal\") or not self.get(\"name\"):",
+    "329": "\t\t\treturn self.insert()",
+    "330": "",
+    "331": "\t\tself.check_permission(\"write\", \"save\")"
+   },
+   "lnum": 329
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>, ignore_permissions=None, ignore_links=None, ignore_if_duplicate=False, ignore_mandatory=None, set_name=None, set_child_names=True)",
+   "dump": {
+    "self": "<Project: PROJ-0001>",
+    "self. run_before_save_methods": "<bound method Document.run_before_save_methods of <Project: PROJ-0001>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "insert",
+   "lines": {
+    "259": "",
+    "260": "\t\tself.flags.in_insert = True",
+    "261": "\t\tself.run_before_save_methods()",
+    "262": "\t\tself._validate()",
+    "263": "\t\tself.set_docstatus()"
+   },
+   "lnum": 261
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>)",
+   "dump": {
+    "self": "<Project: PROJ-0001>",
+    "self. run_method": "<bound method Document.run_method of <Project: PROJ-0001>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_before_save_methods",
+   "lines": {
+    "1051": "",
+    "1052": "\t\tif self._action == \"save\":",
+    "1053": "\t\t\tself.run_method(\"validate\")",
+    "1054": "\t\t\tself.run_method(\"before_save\")",
+    "1055": "\t\telif self._action == \"submit\":"
+   },
+   "lnum": 1053
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>, method='validate', *args=(), **kwargs={})",
+   "dump": {
+    "Document. hook": "<function Document.hook>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "global Document": "<class 'frappe.model.document.Document'>",
+    "kwargs": "{}",
+    "out": "undefined",
+    "self": "<Project: PROJ-0001>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "run_method",
+   "lines": {
+    "915": "",
+    "916": "\t\tfn.__name__ = str(method)",
+    "917": "\t\tout = Document.hook(fn)(self, *args, **kwargs)",
+    "918": "",
+    "919": "\t\tself.run_notifications(method)"
+   },
+   "lnum": 917
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "composed": "<function Document.hook.<locals>.compose.<locals>.runner>",
+    "kwargs": "{}",
+    "method": "'validate'",
+    "self": "<Project: PROJ-0001>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "composer",
+   "lines": {
+    "1277": "",
+    "1278": "\t\t\tcomposed = compose(f, *hooks)",
+    "1279": "\t\t\treturn composed(self, method, *args, **kwargs)",
+    "1280": "",
+    "1281": "\t\treturn composer"
+   },
+   "lnum": 1279
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>, method='validate', *args=(), **kwargs={})",
+   "dump": {
+    "add_to_return_value": "<function Document.hook.<locals>.add_to_return_value>",
+    "args": "()",
+    "fn": "<function Document.run_method.<locals>.fn>",
+    "kwargs": "{}",
+    "self": "<Project: PROJ-0001>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "runner",
+   "lines": {
+    "1259": "\t\tdef compose(fn, *hooks):",
+    "1260": "\t\t\tdef runner(self, method, *args, **kwargs):",
+    "1261": "\t\t\t\tadd_to_return_value(self, fn(self, *args, **kwargs))",
+    "1262": "\t\t\t\tfor f in hooks:",
+    "1263": "\t\t\t\t\tadd_to_return_value(self, f(self, method, *args, **kwargs))"
+   },
+   "lnum": 1261
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>, *args=(), **kwargs={})",
+   "dump": {
+    "args": "()",
+    "kwargs": "{}",
+    "method_object": "<bound method Project.validate of <Project: PROJ-0001>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py",
+   "func": "fn",
+   "lines": {
+    "912": "\t\t\t# If method found in __dict__, expect it to be callable",
+    "913": "\t\t\tif method in self.__dict__ or callable(method_object):",
+    "914": "\t\t\t\treturn method_object(*args, **kwargs)",
+    "915": "",
+    "916": "\t\tfn.__name__ = str(method)"
+   },
+   "lnum": 914
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>)",
+   "dump": {
+    "self": "<Project: PROJ-0001>",
+    "self. send_welcome_email": "<bound method Project.send_welcome_email of <Project: PROJ-0001>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/erpnext/erpnext/projects/doctype/project/project.py",
+   "func": "validate",
+   "lines": {
+    "40": "\t\tif not self.is_new():",
+    "41": "\t\t\tself.copy_from_template()",
+    "42": "\t\tself.send_welcome_email()",
+    "43": "\t\tself.update_costing()",
+    "44": "\t\tself.update_percent_complete()"
+   },
+   "lnum": 42
+  },
+  {
+   "call": "(self=<Project: PROJ-0001>)",
+   "dump": {
+    "content": "'\\n\\t\\t<p>{0}.</p>\\n\\t\\t<p><a href=\"{1}\">{2}</a></p>\\n\\t\\t'",
+    "content. format": "<built-in method format of str object>",
+    "frappe. sendmail": "<function sendmail>",
+    "global _": "<function _>",
+    "global frappe": "<module 'frappe' from '/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py'>",
+    "messages": "('You have been invited to collaborate on the project: PROJ-0001', 'https://erp.visitouriran.com/project/?name=PROJ-0001', 'Join')",
+    "subject": "undefined",
+    "user": "<ProjectUser: d06e963296 parent=PROJ-0001>",
+    "user. user": "'tombrady@gmail.com'"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/erpnext/erpnext/projects/doctype/project/project.py",
+   "func": "send_welcome_email",
+   "lines": {
+    "293": "\t\tfor user in self.users:",
+    "294": "\t\t\tif user.welcome_email_sent == 0:",
+    "295": "\t\t\t\tfrappe.sendmail(",
+    "296": "\t\t\t\t\tuser.user, subject=_(\"Project Collaboration Invitation\"), content=content.format(*messages)",
+    "297": "\t\t\t\t)"
+   },
+   "lnum": 295
+  },
+  {
+   "call": "(recipients='tombrady@gmail.com', sender='', subject='Project Collaboration Invitation', message='\\n\\t\\t<p>You have been invited to collaborate on th...iran.com/project/?name=PROJ-0001\">Join</a></p>\\n\\t\\t', as_markdown=False, delayed=True, reference_doctype=None, reference_name=None, unsubscribe_method=None, unsubscribe_params=None, unsubscribe_message=None, add_unsubscribe_link=1, attachments=None, content='\\n\\t\\t<p>You have been invited to collaborate on th...iran.com/project/?name=PROJ-0001\">Join</a></p>\\n\\t\\t', doctype=None, name=None, reply_to=None, queue_separately=False, cc=[], bcc=[], message_id=None, in_reply_to=None, send_after=None, expose_recipients=None, send_priority=1, communication=None, retry=1, now=None, read_receipt=None, is_notification=False, inline_images=None, template=None, args=None, header=None, print_letterhead=False, with_container=False)",
+   "dump": {
+    "builder": "<frappe.email.doctype.email_queue.email_queue.QueueBuilder object>",
+    "builder. process": "<bound method QueueBuilder.process of <frappe.em...ype.email_queue.email_queue.QueueBuilder object>>",
+    "now": "None",
+    "send_now": "undefined"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "sendmail",
+   "lines": {
+    "718": "",
+    "719": "\t# build email queue and send the email if send_now is True.",
+    "720": "\tbuilder.process(send_now=now)",
+    "721": "",
+    "722": ""
+   },
+   "lnum": 720
+  },
+  {
+   "call": "(self=<frappe.email.doctype.email_queue.email_queue.QueueBuilder object>, send_now=None)",
+   "dump": {
+    "include_recipients": "undefined",
+    "queue_data": "undefined",
+    "self": "<frappe.email.doctype.email_queue.email_queue.QueueBuilder object>",
+    "self. as_dict": "<bound method QueueBuilder.as_dict of <frappe.em...ype.email_queue.email_queue.QueueBuilder object>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py",
+   "func": "process",
+   "lines": {
+    "653": "\t\t\treturn []",
+    "654": "",
+    "655": "\t\tqueue_data = self.as_dict(include_recipients=False)",
+    "656": "\t\tif not queue_data:",
+    "657": "\t\t\treturn []"
+   },
+   "lnum": 655
+  },
+  {
+   "call": "(self=<frappe.email.doctype.email_queue.email_queue.QueueBuilder object>, include_recipients=False)",
+   "dump": {
+    "email_account": "undefined",
+    "self": "<frappe.email.doctype.email_queue.email_queue.QueueBuilder object>",
+    "self. get_outgoing_email_account": "<bound method QueueBuilder.get_outgoing_email_ac...ype.email_queue.email_queue.QueueBuilder object>>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py",
+   "func": "as_dict",
+   "lines": {
+    "694": "",
+    "695": "\tdef as_dict(self, include_recipients=True):",
+    "696": "\t\temail_account = self.get_outgoing_email_account()",
+    "697": "\t\temail_account_name = email_account and email_account.is_exists_in_db() and email_account.name",
+    "698": ""
+   },
+   "lnum": 696
+  },
+  {
+   "call": "(self=<frappe.email.doctype.email_queue.email_queue.QueueBuilder object>)",
+   "dump": {
+    "EmailAccount. find_outgoing": "<bound method EmailAccount.find_outgoing of <cla...ctype.email_account.email_account.EmailAccount'>>",
+    "_raise_error": "undefined",
+    "global EmailAccount": "<class 'frappe.email.doctype.email_account.email_account.EmailAccount'>",
+    "match_by_doctype": "undefined",
+    "match_by_email": "undefined",
+    "self": "<frappe.email.doctype.email_queue.email_queue.QueueBuilder object>",
+    "self. _email_account": "None",
+    "self. _sender": "''",
+    "self. reference_doctype": "None"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py",
+   "func": "get_outgoing_email_account",
+   "lines": {
+    "562": "\t\t\treturn self._email_account",
+    "563": "",
+    "564": "\t\tself._email_account = EmailAccount.find_outgoing(",
+    "565": "\t\t\tmatch_by_doctype=self.reference_doctype, match_by_email=self._sender, _raise_error=True",
+    "566": "\t\t)"
+   },
+   "lnum": 564
+  },
+  {
+   "call": "(*args=(<class 'frappe.email.doctype.email_account.email_account.EmailAccount'>,), **kwargs={'_raise_error': True, 'match_by_doctype': None, 'match_by_email': ''})",
+   "dump": {
+    "args": "(<class 'frappe.email.doctype.email_account.email_account.EmailAccount'>,)",
+    "func": "<function EmailAccount.find_outgoing>",
+    "kwargs": "{'_raise_error': True, 'match_by_doctype': None, 'match_by_email': ''}",
+    "matched_accounts": "[]"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py",
+   "func": "wrapper_cache_email_account",
+   "lines": {
+    "41": "\t\t\t\treturn matched_accounts[0]",
+    "42": "",
+    "43": "\t\t\tmatched_accounts = func(*args, **kwargs)",
+    "44": "\t\t\tcached_accounts.update(matched_accounts or {})",
+    "45": "\t\t\treturn matched_accounts and list(matched_accounts.values())[0]"
+   },
+   "lnum": 43
+  },
+  {
+   "call": "(cls=<class 'frappe.email.doctype.email_account.email_account.EmailAccount'>, match_by_email='', match_by_doctype=None, _raise_error=True)",
+   "dump": {
+    "frappe. OutgoingEmailError": "<class 'frappe.exceptions.OutgoingEmailError'>",
+    "frappe. throw": "<function throw>",
+    "global _": "<function _>",
+    "global frappe": "<module 'frappe' from '/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py'>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py",
+   "func": "find_outgoing",
+   "lines": {
+    "325": "",
+    "326": "\t\tif _raise_error:",
+    "327": "\t\t\tfrappe.throw(",
+    "328": "\t\t\t\t_(\"Please setup default Email Account from Setup > Email > Email Account\"),",
+    "329": "\t\t\t\tfrappe.OutgoingEmailError,"
+   },
+   "lnum": 327
+  },
+  {
+   "call": "(msg='Please setup default Email Account from Setup > Email > Email Account', exc=<class 'frappe.exceptions.OutgoingEmailError'>, title=None, is_minimizable=False, wide=False, as_list=False)",
+   "dump": {
+    "as_list": "False",
+    "exc": "<class 'frappe.exceptions.OutgoingEmailError'>",
+    "global msgprint": "<function msgprint>",
+    "indicator": "undefined",
+    "is_minimizable": "False",
+    "msg": "'Please setup default Email Account from Setup > Email > Email Account'",
+    "raise_exception": "undefined",
+    "title": "None",
+    "wide": "False"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "throw",
+   "lines": {
+    "532": "\t:param msg: Message.",
+    "533": "\t:param exc: Exception class. Default `frappe.ValidationError`\"\"\"",
+    "534": "\tmsgprint(",
+    "535": "\t\tmsg,",
+    "536": "\t\traise_exception=exc,"
+   },
+   "lnum": 534
+  },
+  {
+   "call": "(msg='Please setup default Email Account from Setup > Email > Email Account', title=None, raise_exception=<class 'frappe.exceptions.OutgoingEmailError'>, as_table=False, as_list=False, indicator='red', alert=False, primary_action=None, is_minimizable=False, wide=False)",
+   "dump": {
+    "_raise_exception": "<function msgprint.<locals>._raise_exception>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "msgprint",
+   "lines": {
+    "500": "\t\tlocal.response[\"exc_type\"] = raise_exception.__name__",
+    "501": "",
+    "502": "\t_raise_exception()",
+    "503": "",
+    "504": ""
+   },
+   "lnum": 502
+  },
+  {
+   "call": "()",
+   "dump": {
+    "msg": "'Please setup default Email Account from Setup > Email > Email Account'",
+    "raise_exception": "<class 'frappe.exceptions.OutgoingEmailError'>"
+   },
+   "file": "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py",
+   "func": "_raise_exception",
+   "lines": {
+    "449": "\t\tif raise_exception:",
+    "450": "\t\t\tif inspect.isclass(raise_exception) and issubclass(raise_exception, Exception):",
+    "451": "\t\t\t\traise raise_exception(msg)",
+    "452": "\t\t\telse:",
+    "453": "\t\t\t\traise ValidationError(msg)"
+   },
+   "lnum": 451
+  }
+ ],
+ "locals": {
+  "inspect": "<module 'inspect' from '/usr/lib/python3.10/inspect.py'>",
+  "msg": "Please setup default Email Account from Setup > Email > Email Account",
+  "raise_exception": "<class 'frappe.exceptions.OutgoingEmailError'>"
+ },
+ "pyver": "Python 3.10.12: /home/erpgulf/frappe-bench/env/bin/python (prefix: /home/erpgulf/frappe-bench/env)",
+ "timestamp": "2023-09-13 16:51:11.139721",
+ "traceback": "Traceback (most recent call last):\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py\", line 94, in application\n    response = frappe.api.handle()\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py\", line 54, in handle\n    return frappe.handler.handle()\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py\", line 47, in handle\n    data = execute_cmd(cmd)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py\", line 85, in execute_cmd\n    return frappe.call(method, **frappe.form_dict)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py\", line 1622, in call\n    return fn(*args, **newargs)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/desk/form/save.py\", line 28, in savedocs\n    doc.save()\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 307, in save\n    return self._save(*args, **kwargs)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 329, in _save\n    return self.insert()\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 261, in insert\n    self.run_before_save_methods()\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 1053, in run_before_save_methods\n    self.run_method(\"validate\")\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 917, in run_method\n    out = Document.hook(fn)(self, *args, **kwargs)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 1279, in composer\n    return composed(self, method, *args, **kwargs)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 1261, in runner\n    add_to_return_value(self, fn(self, *args, **kwargs))\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py\", line 914, in fn\n    return method_object(*args, **kwargs)\n  File \"/home/erpgulf/frappe-bench/apps/erpnext/erpnext/projects/doctype/project/project.py\", line 42, in validate\n    self.send_welcome_email()\n  File \"/home/erpgulf/frappe-bench/apps/erpnext/erpnext/projects/doctype/project/project.py\", line 295, in send_welcome_email\n    frappe.sendmail(\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py\", line 720, in sendmail\n    builder.process(send_now=now)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py\", line 655, in process\n    queue_data = self.as_dict(include_recipients=False)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py\", line 696, in as_dict\n    email_account = self.get_outgoing_email_account()\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_queue/email_queue.py\", line 564, in get_outgoing_email_account\n    self._email_account = EmailAccount.find_outgoing(\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py\", line 43, in wrapper_cache_email_account\n    matched_accounts = func(*args, **kwargs)\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/email/doctype/email_account/email_account.py\", line 327, in find_outgoing\n    frappe.throw(\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py\", line 534, in throw\n    msgprint(\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py\", line 502, in msgprint\n    _raise_exception()\n  File \"/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py\", line 451, in _raise_exception\n    raise raise_exception(msg)\nfrappe.exceptions.OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account\n"
+}

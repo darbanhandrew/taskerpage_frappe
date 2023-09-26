@@ -1,0 +1,328 @@
+2023-09-24 04:49:33,721 WARNING database DDL Query made to DB:
+create table `tabBench Manager Command` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`source` varchar(140),
+`time_taken` varchar(140),
+`status` varchar(140) default 'Ongoing',
+`command` text,
+`console` longtext,
+`key` varchar(140),
+`bench_settings` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:49:34,182 WARNING database DDL Query made to DB:
+create table `tabSite` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`site_name` varchar(140) unique,
+`app_list` text default 'default (frappe)',
+`install_erpnext` int(1) not null default 0,
+`site_alias` text,
+`developer_mode` int(1) not null default 0,
+`db_name` varchar(140) unique,
+`db_password` text,
+`auto_backup` int(1) not null default 0,
+`frequency` varchar(140),
+`dropbox_backup` int(1) not null default 0,
+`maintenance_mode` varchar(140),
+`pause_scheduler` varchar(140),
+`disable_website_cache` int(1) not null default 0,
+`expiry` varchar(140),
+`space` varchar(140),
+`emails` varchar(140),
+`backup_size` decimal(21,9) not null default 0,
+`database_size` decimal(21,9) not null default 0,
+`files_size` decimal(21,9) not null default 0,
+`total` decimal(21,9) not null default 0,
+`developer_flag` int(11) not null default 0,
+`bench_settings` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:49:34,282 WARNING database DDL Query made to DB:
+create table `tabSite Backup` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`site_name` varchar(140),
+`date` varchar(140),
+`time` varchar(140),
+`stored_location` varchar(140),
+`public_file_backup` int(1) not null default 0,
+`private_file_backup` int(1) not null default 0,
+`hash` varchar(140),
+`developer_flag` int(11) not null default 0,
+`file_path` varchar(140),
+`bench_settings` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:49:34,433 WARNING database DDL Query made to DB:
+create table `tabApp` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`app_name` varchar(140),
+`app_title` varchar(140),
+`version` varchar(140),
+`app_description` varchar(140),
+`app_publisher` varchar(140),
+`app_email` varchar(140),
+`app_icon` varchar(140) default 'fa fa-gamepad',
+`app_color` varchar(140) default '\'grey\'',
+`app_license` varchar(140) default 'MIT',
+`developer_flag` int(11) not null default 0,
+`current_git_branch` varchar(140),
+`is_git_repo` int(1) not null default 0,
+`bench_settings` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:51:09,734 WARNING database DDL Query made to DB:
+create table `tabDrive DocShare` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`entity_name` varchar(140),
+`user_group` varchar(140),
+`read` int(1) not null default 0,
+`write` int(1) not null default 0,
+`share` int(1) not null default 0,
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:51:09,940 WARNING database DDL Query made to DB:
+create table `tabDrive Tag` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`title` varchar(140),
+`color` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:51:10,020 WARNING database DDL Query made to DB:
+create table `tabDrive Entity Tag` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`tag` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:51:10,095 WARNING database DDL Query made to DB:
+create table `tabDrive Document` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`title` text,
+`content` longtext default 'AAA=',
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:51:10,202 WARNING database DDL Query made to DB:
+create sequence if not exists drive_favourite_id_seq nocache nocycle
+2023-09-24 04:51:10,207 WARNING database DDL Query made to DB:
+create table `tabDrive Favourite` (
+			name bigint primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`user` varchar(140),
+`entity` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:51:10,348 WARNING database DDL Query made to DB:
+create table `tabDrive Entity` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`title` varchar(140),
+`lft` int(11) not null default 0,
+`rgt` int(11) not null default 0,
+`is_group` int(1) not null default 0,
+`old_parent` varchar(140),
+`parent_drive_entity` varchar(140),
+`path` text,
+`file_size` int(11) not null default 0,
+`mime_type` varchar(140),
+`version` int(11) not null default 0,
+`is_active` int(1) not null default 1,
+`trashed_on` date,
+`parent_before_trash` varchar(140),
+`allow_comments` int(1) not null default 0,
+`allow_download` int(1) not null default 0,
+`color` varchar(140),
+`file_ext` varchar(140),
+`document` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+`_seen` text,
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 04:56:55,917 WARNING database DDL Query made to DB:
+DROP TABLE IF EXISTS `tabDrive Entity`
+2023-09-24 04:56:55,954 WARNING database DDL Query made to DB:
+DROP TABLE IF EXISTS `tabDrive Favourite`
+2023-09-24 04:56:55,994 WARNING database DDL Query made to DB:
+DROP TABLE IF EXISTS `tabDrive DocShare`
+2023-09-24 04:56:56,035 WARNING database DDL Query made to DB:
+DROP TABLE IF EXISTS `tabDrive Entity Tag`
+2023-09-24 04:56:56,067 WARNING database DDL Query made to DB:
+DROP TABLE IF EXISTS `tabDrive Tag`
+2023-09-24 04:56:56,097 WARNING database DDL Query made to DB:
+DROP TABLE IF EXISTS `tabDrive Document`
+2023-09-24 05:37:17,211 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Appointment` ADD COLUMN `appointment_start_time` decimal(21,9), ADD COLUMN `appointment_date_time` decimal(21,9)
+2023-09-24 05:38:17,657 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Appointment` MODIFY `appointment_date_time` time(6), MODIFY `appointment_start_time` time(6)
+2023-09-24 05:45:19,320 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Appointment` MODIFY `appointment_time` date
+2023-09-24 05:46:28,427 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Appointment` ADD COLUMN `appointment_end_time` time(6)
+2023-09-24 15:54:22,588 WARNING database DDL Query made to DB:
+create table `tabCustomer Task Skill Options` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`option_name` varchar(140),
+`type` varchar(140),
+`values` text,
+`option_id` varchar(140),
+parent varchar(140),
+parentfield varchar(140),
+parenttype varchar(140),
+index parent(parent),
+
+			index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-09-24 21:32:00,057 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Appointment` ADD COLUMN `geolocation` longtext
+2023-09-24 22:02:44,703 WARNING database DDL Query made to DB:
+ALTER TABLE `tabIssue` MODIFY `first_response_time` decimal(21,9), MODIFY `avg_response_time` decimal(21,9), MODIFY `user_resolution_time` decimal(21,9), MODIFY `total_hold_time` decimal(21,9), MODIFY `resolution_time` decimal(21,9)
+2023-09-24 22:14:58,074 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Profile` MODIFY `longitude` decimal(21,9) not null default 0, MODIFY `review_average` decimal(3,2), MODIFY `latitude` decimal(21,9) not null default 0
+2023-09-25 01:40:03,969 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Task` MODIFY `is_online` int(1) not null default 0
+2023-09-25 07:16:05,555 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer Profile` MODIFY `latitude` decimal(21,9) not null default 0, MODIFY `longitude` decimal(21,9) not null default 0, MODIFY `review_average` decimal(3,2)

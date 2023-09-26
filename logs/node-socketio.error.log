@@ -1,0 +1,171 @@
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}
+events.js:291
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: Redis connection to localhost:13000 failed - connect ECONNREFUSED 127.0.0.1:13000
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1138:16)
+Emitted 'error' event on RedisClient instance at:
+    at RedisClient.on_error (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:342:14)
+    at Socket.<anonymous> (/home/erpgulf/frappe-bench/apps/frappe/node_modules/redis/index.js:223:14)
+    at Socket.emit (events.js:314:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  errno: 'ECONNREFUSED',
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 13000
+}

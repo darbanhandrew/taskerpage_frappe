@@ -1,0 +1,6 @@
+2023-09-24 20:53:31,800 ERROR frappe New Exception collected with id: 2023-09-24 20:53:31.795605-163.172.133.129-2b0
+Site: taskerpage.com
+Form Dict: {'filters': '[["name","in","[\'9\']"]', 'limit_page_length': 20}
+2023-09-24 20:56:38,710 ERROR frappe New Exception collected with id: 2023-09-24 20:56:38.705953-157.90.244.226-f4c
+Site: taskerpage.com
+Form Dict: {'filters': '[["Customer Profile","name","=","9"]', 'limit_page_length': 20}

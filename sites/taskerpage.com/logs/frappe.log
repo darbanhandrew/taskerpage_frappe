@@ -1,0 +1,659 @@
+2023-09-25 03:19:30,750 ERROR frappe New Exception collected with id: 2023-09-25 03:19:30.747525-157.90.244.226-9f6
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:31,090 ERROR frappe New Exception collected with id: 2023-09-25 03:19:31.087296-157.90.244.226-d82
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:31,133 ERROR frappe New Exception collected with id: 2023-09-25 03:19:31.132029-157.90.244.226-be0
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:32,320 ERROR frappe New Exception collected with id: 2023-09-25 03:19:32.319211-157.90.244.226-669
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:33,104 ERROR frappe New Exception collected with id: 2023-09-25 03:19:33.101057-157.90.244.226-9c6
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:33,443 ERROR frappe New Exception collected with id: 2023-09-25 03:19:33.440696-157.90.244.226-88a
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:34,368 ERROR frappe New Exception collected with id: 2023-09-25 03:19:34.366272-157.90.244.226-8b0
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:34,429 ERROR frappe New Exception collected with id: 2023-09-25 03:19:34.426758-157.90.244.226-640
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:35,597 ERROR frappe New Exception collected with id: 2023-09-25 03:19:35.595418-157.90.244.226-392
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:35,718 ERROR frappe New Exception collected with id: 2023-09-25 03:19:35.715557-86.55.5.136-496
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:37,415 ERROR frappe New Exception collected with id: 2023-09-25 03:19:37.414175-157.90.244.226-1ae
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:37,761 ERROR frappe New Exception collected with id: 2023-09-25 03:19:37.759146-157.90.244.226-7f3
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:38,225 ERROR frappe New Exception collected with id: 2023-09-25 03:19:38.223400-157.90.244.226-f59
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:38,837 ERROR frappe New Exception collected with id: 2023-09-25 03:19:38.836036-157.90.244.226-628
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:38,890 ERROR frappe New Exception collected with id: 2023-09-25 03:19:38.889287-157.90.244.226-024
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:39,869 ERROR frappe New Exception collected with id: 2023-09-25 03:19:39.867738-157.90.244.226-d0d
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:40,530 ERROR frappe New Exception collected with id: 2023-09-25 03:19:40.522480-157.90.244.226-7cc
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:47,119 ERROR frappe New Exception collected with id: 2023-09-25 03:19:47.118058-86.55.5.136-7e5
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","null"],["is_poster_accepted","=","0"],["is_tasker_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:19:50,624 ERROR frappe New Exception collected with id: 2023-09-25 03:19:50.621291-157.90.244.226-448
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:20:50,522 ERROR frappe New Exception collected with id: 2023-09-25 03:20:50.517043-86.55.5.136-c8b
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","null"],["is_poster_accepted","=","0"],["is_tasker_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:20:50,725 ERROR frappe New Exception collected with id: 2023-09-25 03:20:50.717880-86.55.5.136-0be
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","null"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:20:57,670 ERROR frappe New Exception collected with id: 2023-09-25 03:20:57.664739-86.55.5.136-f54
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","null"],["is_poster_accepted","=","0"],["is_tasker_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:06,843 ERROR frappe New Exception collected with id: 2023-09-25 03:21:06.840642-157.90.244.226-3ca
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:07,781 ERROR frappe New Exception collected with id: 2023-09-25 03:21:07.746010-157.90.244.226-28f
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:10,236 ERROR frappe New Exception collected with id: 2023-09-25 03:21:10.233177-157.90.244.226-964
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:24,420 ERROR frappe New Exception collected with id: 2023-09-25 03:21:24.418973-86.55.5.136-ad7
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:25,430 ERROR frappe New Exception collected with id: 2023-09-25 03:21:25.422918-86.55.5.136-784
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:25,933 ERROR frappe New Exception collected with id: 2023-09-25 03:21:25.930850-157.90.244.226-6c3
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:27,668 ERROR frappe New Exception collected with id: 2023-09-25 03:21:27.667029-86.55.5.136-d0b
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:29,041 ERROR frappe New Exception collected with id: 2023-09-25 03:21:29.040314-157.90.244.226-27b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:21:39,501 ERROR frappe New Exception collected with id: 2023-09-25 03:21:39.492047-157.90.244.226-34e
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:07,985 ERROR frappe New Exception collected with id: 2023-09-25 03:22:07.968686-86.55.5.136-b8d
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","0"],["is_tasker_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:09,888 ERROR frappe New Exception collected with id: 2023-09-25 03:22:09.884476-86.55.5.136-189
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","0"],["is_tasker_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:15,613 ERROR frappe New Exception collected with id: 2023-09-25 03:22:15.611375-86.55.5.136-765
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:46,053 ERROR frappe New Exception collected with id: 2023-09-25 03:22:46.051712-157.90.244.226-9fb
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:49,277 ERROR frappe New Exception collected with id: 2023-09-25 03:22:49.275572-157.90.244.226-3e3
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:50,090 ERROR frappe New Exception collected with id: 2023-09-25 03:22:50.085727-157.90.244.226-bf3
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:50,288 ERROR frappe New Exception collected with id: 2023-09-25 03:22:50.286493-157.90.244.226-04c
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:50,674 ERROR frappe New Exception collected with id: 2023-09-25 03:22:50.672556-157.90.244.226-107
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:51,003 ERROR frappe New Exception collected with id: 2023-09-25 03:22:51.001133-157.90.244.226-06b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:51,336 ERROR frappe New Exception collected with id: 2023-09-25 03:22:51.332300-157.90.244.226-531
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:51,442 ERROR frappe New Exception collected with id: 2023-09-25 03:22:51.440452-157.90.244.226-53b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:52,180 ERROR frappe New Exception collected with id: 2023-09-25 03:22:52.176278-157.90.244.226-733
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:52,729 ERROR frappe New Exception collected with id: 2023-09-25 03:22:52.727477-157.90.244.226-487
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:59,363 ERROR frappe New Exception collected with id: 2023-09-25 03:22:59.361961-86.55.5.136-42e
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","0"],["is_tasker_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:59,443 ERROR frappe New Exception collected with id: 2023-09-25 03:22:59.439976-86.55.5.136-774
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:22:59,768 ERROR frappe New Exception collected with id: 2023-09-25 03:22:59.767111-86.55.5.136-b43
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:02,712 ERROR frappe New Exception collected with id: 2023-09-25 03:23:02.710713-86.55.5.136-fac
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:03,048 ERROR frappe New Exception collected with id: 2023-09-25 03:23:03.046478-86.55.5.136-398
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","1"],["is_tasker_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:03,178 ERROR frappe New Exception collected with id: 2023-09-25 03:23:03.171828-86.55.5.136-6cc
+Site: taskerpage.com
+Form Dict: {'filters': '[["poster","=","89"],["is_poster_accepted","=","0"],["is_tasker_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:04,447 ERROR frappe New Exception collected with id: 2023-09-25 03:23:04.445451-157.90.244.226-6a7
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:12,570 ERROR frappe New Exception collected with id: 2023-09-25 03:23:12.568207-157.90.244.226-3fe
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:12,637 ERROR frappe New Exception collected with id: 2023-09-25 03:23:12.636290-157.90.244.226-f20
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:13,105 ERROR frappe New Exception collected with id: 2023-09-25 03:23:13.091637-157.90.244.226-f66
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:14,819 ERROR frappe New Exception collected with id: 2023-09-25 03:23:14.811074-157.90.244.226-0cb
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:16,094 ERROR frappe New Exception collected with id: 2023-09-25 03:23:16.091205-157.90.244.226-bdb
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:17,017 ERROR frappe New Exception collected with id: 2023-09-25 03:23:17.015155-157.90.244.226-eee
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:23:17,274 ERROR frappe New Exception collected with id: 2023-09-25 03:23:17.272035-157.90.244.226-b5a
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","88"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:29,877 ERROR frappe New Exception collected with id: 2023-09-25 03:46:29.875049-5.112.253.19-0f1
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:41,104 ERROR frappe New Exception collected with id: 2023-09-25 03:46:41.095005-5.112.253.19-5c8
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:42,551 ERROR frappe New Exception collected with id: 2023-09-25 03:46:42.547618-5.112.253.19-5cf
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:42,887 ERROR frappe New Exception collected with id: 2023-09-25 03:46:42.884326-5.112.253.19-e54
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:45,257 ERROR frappe New Exception collected with id: 2023-09-25 03:46:45.252503-5.112.253.19-e05
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:45,537 ERROR frappe New Exception collected with id: 2023-09-25 03:46:45.535039-5.112.253.19-55b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:46,440 ERROR frappe New Exception collected with id: 2023-09-25 03:46:46.438491-5.112.253.19-62c
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:46,504 ERROR frappe New Exception collected with id: 2023-09-25 03:46:46.502592-5.112.253.19-22b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:46:47,712 ERROR frappe New Exception collected with id: 2023-09-25 03:46:47.709888-5.112.253.19-5c5
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:47:12,357 ERROR frappe New Exception collected with id: 2023-09-25 03:47:12.354142-5.112.253.19-8bd
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:48:06,141 ERROR frappe New Exception collected with id: 2023-09-25 03:48:06.139157-5.112.253.19-12a
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:49:10,174 ERROR frappe New Exception collected with id: 2023-09-25 03:49:10.172867-5.112.253.19-350
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:49:10,354 ERROR frappe New Exception collected with id: 2023-09-25 03:49:10.350648-5.112.253.19-b64
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:50:37,077 ERROR frappe New Exception collected with id: 2023-09-25 03:50:37.073480-5.112.253.19-612
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 03:51:29,902 ERROR frappe New Exception collected with id: 2023-09-25 03:51:29.900039-5.112.253.19-d39
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:04:22,377 ERROR frappe New Exception collected with id: 2023-09-25 04:04:22.375332-5.112.253.19-315
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:04:55,383 ERROR frappe New Exception collected with id: 2023-09-25 04:04:55.379830-5.112.253.19-c4e
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:04:55,483 ERROR frappe New Exception collected with id: 2023-09-25 04:04:55.479896-5.112.253.19-0a7
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:04:59,725 ERROR frappe New Exception collected with id: 2023-09-25 04:04:59.721909-5.112.253.19-cff
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:20:26,440 ERROR frappe New Exception collected with id: 2023-09-25 04:20:26.438480-5.112.253.19-435
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:20:26,472 ERROR frappe New Exception collected with id: 2023-09-25 04:20:26.469777-5.112.253.19-e25
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:20:26,972 ERROR frappe New Exception collected with id: 2023-09-25 04:20:26.969661-5.112.253.19-0d2
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:20:28,762 ERROR frappe New Exception collected with id: 2023-09-25 04:20:28.761271-5.112.253.19-f34
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:20:31,600 ERROR frappe New Exception collected with id: 2023-09-25 04:20:31.597794-5.112.253.19-f5b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:20:39,191 ERROR frappe New Exception collected with id: 2023-09-25 04:20:39.189095-5.112.253.19-20f
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:20:54,617 ERROR frappe New Exception collected with id: 2023-09-25 04:20:54.607104-5.112.253.19-383
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:21:23,595 ERROR frappe New Exception collected with id: 2023-09-25 04:21:23.591216-5.112.253.19-ca1
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:21:25,513 ERROR frappe New Exception collected with id: 2023-09-25 04:21:25.510623-5.112.253.19-2f7
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:21:27,031 ERROR frappe New Exception collected with id: 2023-09-25 04:21:27.020566-5.112.253.19-a09
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:21:30,010 ERROR frappe New Exception collected with id: 2023-09-25 04:21:30.007888-5.112.253.19-ffc
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:21:30,131 ERROR frappe New Exception collected with id: 2023-09-25 04:21:30.126736-5.112.253.19-81a
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:27:32,241 ERROR frappe New Exception collected with id: 2023-09-25 04:27:32.237554-5.112.253.19-3bf
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:37:05,402 ERROR frappe New Exception collected with id: 2023-09-25 04:37:05.399473-5.112.253.19-16d
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 04:37:21,608 ERROR frappe New Exception collected with id: 2023-09-25 04:37:21.605176-5.112.253.19-ea9
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 05:51:24,177 ERROR frappe Could not take error snapshot: characters_written
+Site: taskerpage.com
+Form Dict: {'file_name': 'hi', 'doctype': 'Customer Education', 'docname': '96', 'folder': 'Home/Attachments', 'file': '', 'cmd': 'upload_file'}
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py", line 94, in application
+    response = frappe.api.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 223, in upload_file
+    return frappe.get_doc(
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 307, in save
+    return self._save(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 329, in _save
+    return self.insert()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 261, in insert
+    self.run_before_save_methods()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1053, in run_before_save_methods
+    self.run_method("validate")
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1279, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1261, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 914, in fn
+    return method_object(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 99, in validate
+    self.validate_file_on_disk()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 315, in validate_file_on_disk
+    frappe.throw(_("File {0} does not exist").format(self.file_url), IOError)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 534, in throw
+    msgprint(
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 502, in msgprint
+    _raise_exception()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 451, in _raise_exception
+    raise raise_exception(msg)
+OSError: File  does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 155, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-09-25 05:53:26,304 ERROR frappe Could not take error snapshot: characters_written
+Site: taskerpage.com
+Form Dict: {'file_name': 'hi', 'doctype': 'Customer Profile', 'docname': '96', 'folder': 'Home/Attachments', 'file': '', 'cmd': 'upload_file'}
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py", line 94, in application
+    response = frappe.api.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 223, in upload_file
+    return frappe.get_doc(
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 307, in save
+    return self._save(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 329, in _save
+    return self.insert()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 261, in insert
+    self.run_before_save_methods()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1053, in run_before_save_methods
+    self.run_method("validate")
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1279, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1261, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 914, in fn
+    return method_object(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 99, in validate
+    self.validate_file_on_disk()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 315, in validate_file_on_disk
+    frappe.throw(_("File {0} does not exist").format(self.file_url), IOError)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 534, in throw
+    msgprint(
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 502, in msgprint
+    _raise_exception()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 451, in _raise_exception
+    raise raise_exception(msg)
+OSError: File  does not exist
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 155, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2023-09-25 09:54:33,947 ERROR frappe New Exception collected with id: 2023-09-25 09:54:33.935564-51.159.149.198-4ed
+Site: taskerpage.com
+Form Dict: {'filters': '[["name","in",[9,9]]', 'limit_page_length': 20}
+2023-09-25 09:54:52,905 ERROR frappe New Exception collected with id: 2023-09-25 09:54:52.806292-51.159.149.198-d56
+Site: taskerpage.com
+Form Dict: {'filters': '[["name","in","[9,9]"]', 'limit_page_length': 20}
+2023-09-25 10:21:05,849 ERROR frappe New Exception collected with id: 2023-09-25 10:21:05.758490-86.55.5.136-bff
+Site: taskerpage.com
+Form Dict: {'filters': '[["identified","=","0"], ["insurance","=","0"], [name, in, [86]]]', 'fields': ['city', 'country', 'name', 'creation', 'date_of_birth', 'first_name', 'last_name', 'review_average', 'review_count', 'avatar', 'latitude', 'longitude'], 'order_by': 'creation desc', 'limit_page_length': 20}
+2023-09-25 10:21:38,334 ERROR frappe New Exception collected with id: 2023-09-25 10:21:38.322341-51.15.124.20-98f
+Site: taskerpage.com
+Form Dict: {'filters': '[["identified","=","0"], ["insurance","=","0"], [name, in, [99, 96, 89, 67]]]', 'fields': ['city', 'country', 'name', 'creation', 'date_of_birth', 'first_name', 'last_name', 'review_average', 'review_count', 'avatar', 'latitude', 'longitude'], 'order_by': 'creation desc', 'limit_page_length': 20}
+2023-09-25 10:22:07,605 ERROR frappe New Exception collected with id: 2023-09-25 10:22:07.489328-86.55.5.136-5e3
+Site: taskerpage.com
+Form Dict: {'filters': '[["identified","=","0"], ["insurance","=","0"], [name, in, [86]]]', 'fields': ['city', 'country', 'name', 'creation', 'date_of_birth', 'first_name', 'last_name', 'review_average', 'review_count', 'avatar', 'latitude', 'longitude'], 'order_by': 'creation desc', 'limit_page_length': 20}
+2023-09-25 10:22:07,852 ERROR frappe New Exception collected with id: 2023-09-25 10:22:07.838681-86.55.5.136-dd8
+Site: taskerpage.com
+Form Dict: {'filters': '[["identified","=","0"], ["insurance","=","0"], [name, in, [86]]]', 'fields': ['city', 'country', 'name', 'creation', 'date_of_birth', 'first_name', 'last_name', 'review_average', 'review_count', 'avatar', 'latitude', 'longitude'], 'order_by': 'creation desc', 'limit_page_length': 20}
+2023-09-25 10:22:28,260 ERROR frappe New Exception collected with id: 2023-09-25 10:22:28.251911-51.158.235.77-4c3
+Site: taskerpage.com
+Form Dict: {'content': 'https://taskerpage.com/api/resource/Customer%20Profile?filters=%5B%5B%22identified%22%2C%22%3D%22%2C%220%22%5D%2C%20%5B%22insurance%22%2C%22%3D%22%2C%220%22%5D%2C%20%5Bname%2C%20in%2C%20%5B99%2C%2096%2C%2089%2C%2067%5D%5D%5D&fields=%5B%22city%22%2C%22country%22%2C%22name%22%2C%22creation%22%2C%22date_of_birth%22%2C%22first_name%22%2C%22last_name%22%2C%22review_average%22%2C%22review_count%22%2C%22avatar%22%2C%22latitude%22%2C%22longitude%22%5D&order_by=creation%20desc', 'user': 'Administrator', 'room': 'CR00014', 'email': 'Administrator', 'cmd': 'chat.api.message.send'}
+2023-09-25 10:36:45,400 ERROR frappe New Exception collected with id: 2023-09-25 10:36:45.394196-86.55.5.136-b7f
+Site: taskerpage.com
+Form Dict: {'filters': '[[""name"",""in"","[99, 96, 89, 67]"]]', 'fields': ['city', 'country', 'name', 'creation', 'date_of_birth', 'first_name', 'last_name', 'review_average', 'review_count', 'avatar', 'latitude', 'longitude'], 'order_by': 'creation desc', 'limit_page_length': 20}
+2023-09-25 10:36:54,705 ERROR frappe New Exception collected with id: 2023-09-25 10:36:54.702523-51.15.124.20-e5e
+Site: taskerpage.com
+Form Dict: {'filters': '[[""name"",""in"","[99, 96, 89, 67]"], ["identified","=","0"], ["insurance","=","0"]]', 'fields': ['city', 'country', 'name', 'creation', 'date_of_birth', 'first_name', 'last_name', 'review_average', 'review_count', 'avatar', 'latitude', 'longitude'], 'order_by': 'creation desc', 'limit_page_length': 20}
+2023-09-25 10:37:26,351 ERROR frappe New Exception collected with id: 2023-09-25 10:37:26.348242-51.15.124.20-860
+Site: taskerpage.com
+Form Dict: {'filters': '[[""name"",""in"","[99, 96, 89, 67]"]]', 'fields': ['city', 'country', 'name', 'creation', 'date_of_birth', 'first_name', 'last_name', 'review_average', 'review_count', 'avatar', 'latitude', 'longitude'], 'order_by': 'creation desc', 'limit_page_length': 20}
+2023-09-25 14:07:00,074 ERROR frappe New Exception collected with id: 2023-09-25 14:07:00.070842-51.15.124.20-334
+Site: taskerpage.com
+Form Dict: {'filters': 'null', 'fields': '', 'limit_page_length': 20}
+2023-09-25 14:07:01,208 ERROR frappe New Exception collected with id: 2023-09-25 14:07:01.204781-51.15.124.20-057
+Site: taskerpage.com
+Form Dict: {'filters': 'null', 'fields': '', 'limit_page_length': 20}
+2023-09-25 22:14:09,050 ERROR frappe New Exception collected with id: 2023-09-25 22:14:09.047038-157.90.244.226-c9f
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:09,102 ERROR frappe New Exception collected with id: 2023-09-25 22:14:09.100530-157.90.244.226-6cd
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:09,127 ERROR frappe New Exception collected with id: 2023-09-25 22:14:09.125318-157.90.244.226-d17
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:13,096 ERROR frappe New Exception collected with id: 2023-09-25 22:14:13.087781-157.90.244.226-1b9
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:13,106 ERROR frappe New Exception collected with id: 2023-09-25 22:14:13.098577-157.90.244.226-ce4
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:13,183 ERROR frappe New Exception collected with id: 2023-09-25 22:14:13.181717-157.90.244.226-1c0
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:15,902 ERROR frappe New Exception collected with id: 2023-09-25 22:14:15.891832-157.90.244.226-875
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:15,957 ERROR frappe New Exception collected with id: 2023-09-25 22:14:15.953905-157.90.244.226-3b3
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:16,083 ERROR frappe New Exception collected with id: 2023-09-25 22:14:16.078238-157.90.244.226-9a9
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:20,383 ERROR frappe New Exception collected with id: 2023-09-25 22:14:20.379946-157.90.244.226-2f2
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:20,461 ERROR frappe New Exception collected with id: 2023-09-25 22:14:20.457938-157.90.244.226-191
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:20,531 ERROR frappe New Exception collected with id: 2023-09-25 22:14:20.529206-157.90.244.226-e6e
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:22,758 ERROR frappe New Exception collected with id: 2023-09-25 22:14:22.754849-157.90.244.226-500
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:22,883 ERROR frappe New Exception collected with id: 2023-09-25 22:14:22.879602-157.90.244.226-053
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:23,452 ERROR frappe New Exception collected with id: 2023-09-25 22:14:23.446910-157.90.244.226-f15
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:25,290 ERROR frappe New Exception collected with id: 2023-09-25 22:14:25.285178-157.90.244.226-3f6
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:25,339 ERROR frappe New Exception collected with id: 2023-09-25 22:14:25.327557-157.90.244.226-182
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:25,358 ERROR frappe New Exception collected with id: 2023-09-25 22:14:25.353770-157.90.244.226-21c
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:26,933 ERROR frappe New Exception collected with id: 2023-09-25 22:14:26.921712-157.90.244.226-ce8
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:26,946 ERROR frappe New Exception collected with id: 2023-09-25 22:14:26.944930-157.90.244.226-0a6
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:27,070 ERROR frappe New Exception collected with id: 2023-09-25 22:14:27.067380-157.90.244.226-9d9
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:29,269 ERROR frappe New Exception collected with id: 2023-09-25 22:14:29.267498-157.90.244.226-bba
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:29,308 ERROR frappe New Exception collected with id: 2023-09-25 22:14:29.305181-157.90.244.226-fc8
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:29,361 ERROR frappe New Exception collected with id: 2023-09-25 22:14:29.359350-157.90.244.226-cc2
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:39,387 ERROR frappe New Exception collected with id: 2023-09-25 22:14:39.385810-157.90.244.226-687
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:39,395 ERROR frappe New Exception collected with id: 2023-09-25 22:14:39.392804-157.90.244.226-647
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:39,416 ERROR frappe New Exception collected with id: 2023-09-25 22:14:39.412287-157.90.244.226-635
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:44,474 ERROR frappe New Exception collected with id: 2023-09-25 22:14:44.465116-157.90.244.226-b53
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:44,634 ERROR frappe New Exception collected with id: 2023-09-25 22:14:44.629912-157.90.244.226-3bf
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:44,663 ERROR frappe New Exception collected with id: 2023-09-25 22:14:44.661859-157.90.244.226-25b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:45,718 ERROR frappe New Exception collected with id: 2023-09-25 22:14:45.716076-157.90.244.226-42a
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:45,767 ERROR frappe New Exception collected with id: 2023-09-25 22:14:45.766329-157.90.244.226-5e0
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:45,807 ERROR frappe New Exception collected with id: 2023-09-25 22:14:45.801420-157.90.244.226-10e
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:48,278 ERROR frappe New Exception collected with id: 2023-09-25 22:14:48.275696-157.90.244.226-e97
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:48,400 ERROR frappe New Exception collected with id: 2023-09-25 22:14:48.398986-157.90.244.226-d29
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:48,530 ERROR frappe New Exception collected with id: 2023-09-25 22:14:48.524703-157.90.244.226-941
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:48,564 ERROR frappe New Exception collected with id: 2023-09-25 22:14:48.562833-157.90.244.226-194
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:48,610 ERROR frappe New Exception collected with id: 2023-09-25 22:14:48.608768-157.90.244.226-1fc
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:48,668 ERROR frappe New Exception collected with id: 2023-09-25 22:14:48.664581-157.90.244.226-bce
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:49,661 ERROR frappe New Exception collected with id: 2023-09-25 22:14:49.658509-157.90.244.226-8a9
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:49,680 ERROR frappe New Exception collected with id: 2023-09-25 22:14:49.678927-157.90.244.226-d97
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:49,747 ERROR frappe New Exception collected with id: 2023-09-25 22:14:49.745431-157.90.244.226-b8c
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:49,990 ERROR frappe New Exception collected with id: 2023-09-25 22:14:49.987884-157.90.244.226-63e
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:50,030 ERROR frappe New Exception collected with id: 2023-09-25 22:14:50.027423-157.90.244.226-dae
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:50,031 ERROR frappe New Exception collected with id: 2023-09-25 22:14:50.027828-157.90.244.226-fba
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:51,243 ERROR frappe New Exception collected with id: 2023-09-25 22:14:51.241535-157.90.244.226-cee
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:51,315 ERROR frappe New Exception collected with id: 2023-09-25 22:14:51.304645-157.90.244.226-68b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:51,579 ERROR frappe New Exception collected with id: 2023-09-25 22:14:51.575796-157.90.244.226-d2d
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:51,679 ERROR frappe New Exception collected with id: 2023-09-25 22:14:51.667887-157.90.244.226-30c
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:51,708 ERROR frappe New Exception collected with id: 2023-09-25 22:14:51.706814-157.90.244.226-99d
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:52,423 ERROR frappe New Exception collected with id: 2023-09-25 22:14:52.420312-157.90.244.226-889
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:55,012 ERROR frappe New Exception collected with id: 2023-09-25 22:14:55.007082-157.90.244.226-7d6
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:55,058 ERROR frappe New Exception collected with id: 2023-09-25 22:14:55.055104-157.90.244.226-1ef
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:55,146 ERROR frappe New Exception collected with id: 2023-09-25 22:14:55.145387-157.90.244.226-550
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:55,180 ERROR frappe New Exception collected with id: 2023-09-25 22:14:55.176992-157.90.244.226-9ab
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:55,236 ERROR frappe New Exception collected with id: 2023-09-25 22:14:55.233151-157.90.244.226-d26
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:14:55,265 ERROR frappe New Exception collected with id: 2023-09-25 22:14:55.264219-157.90.244.226-d24
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:01,227 ERROR frappe New Exception collected with id: 2023-09-25 22:15:01.226133-157.90.244.226-9e1
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:01,235 ERROR frappe New Exception collected with id: 2023-09-25 22:15:01.232890-157.90.244.226-388
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:01,396 ERROR frappe New Exception collected with id: 2023-09-25 22:15:01.394773-157.90.244.226-86d
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:01,567 ERROR frappe New Exception collected with id: 2023-09-25 22:15:01.565970-157.90.244.226-504
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:01,629 ERROR frappe New Exception collected with id: 2023-09-25 22:15:01.625816-157.90.244.226-808
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:01,960 ERROR frappe New Exception collected with id: 2023-09-25 22:15:01.958845-157.90.244.226-7cc
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:05,499 ERROR frappe New Exception collected with id: 2023-09-25 22:15:05.493798-157.90.244.226-317
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:05,632 ERROR frappe New Exception collected with id: 2023-09-25 22:15:05.630213-157.90.244.226-d25
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:05,653 ERROR frappe New Exception collected with id: 2023-09-25 22:15:05.651847-157.90.244.226-695
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:05,872 ERROR frappe New Exception collected with id: 2023-09-25 22:15:05.870867-157.90.244.226-89b
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:05,887 ERROR frappe New Exception collected with id: 2023-09-25 22:15:05.885433-157.90.244.226-814
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:05,984 ERROR frappe New Exception collected with id: 2023-09-25 22:15:05.978843-157.90.244.226-d53
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:14,977 ERROR frappe New Exception collected with id: 2023-09-25 22:15:14.975759-157.90.244.226-872
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:15,128 ERROR frappe New Exception collected with id: 2023-09-25 22:15:15.125956-157.90.244.226-836
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:15,171 ERROR frappe New Exception collected with id: 2023-09-25 22:15:15.165616-157.90.244.226-dc3
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:15,204 ERROR frappe New Exception collected with id: 2023-09-25 22:15:15.203112-157.90.244.226-62e
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:15,233 ERROR frappe New Exception collected with id: 2023-09-25 22:15:15.225632-157.90.244.226-ee0
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:15,410 ERROR frappe New Exception collected with id: 2023-09-25 22:15:15.408935-157.90.244.226-bcc
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:21,250 ERROR frappe New Exception collected with id: 2023-09-25 22:15:21.241515-157.90.244.226-479
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:21,387 ERROR frappe New Exception collected with id: 2023-09-25 22:15:21.385701-157.90.244.226-318
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:21,445 ERROR frappe New Exception collected with id: 2023-09-25 22:15:21.437503-157.90.244.226-a37
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:21,494 ERROR frappe New Exception collected with id: 2023-09-25 22:15:21.492506-157.90.244.226-51d
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","1"],["is_poster_accepted","=","1"],["docstatus","=","1"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name","docstatus",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:21,518 ERROR frappe New Exception collected with id: 2023-09-25 22:15:21.517071-157.90.244.226-ed6
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}
+2023-09-25 22:15:21,556 ERROR frappe New Exception collected with id: 2023-09-25 22:15:21.554769-157.90.244.226-e82
+Site: taskerpage.com
+Form Dict: {'filters': '[["tasker","=","9"],["is_tasker_accepted","=","0"],["is_poster_accepted","=","0"]]', 'fields': '["appointment_type","appointment_time","poster","tasker","is_tasker_accepted","is_poster_accepted","name",,"creation","appointment_start_time","appointment_end_time"]', 'order_by': 'creation desc'}

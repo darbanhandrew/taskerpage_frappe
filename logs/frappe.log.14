@@ -1,0 +1,12 @@
+2023-09-24 16:03:43,408 ERROR frappe New Exception collected with id: 2023-09-24 16:03:43.406265-35.172.146.33-fd6
+Site: taskerpage.com
+Form Dict: {'skill_name': 'Electrical Work - Home and Garden', 'skill_level': '', 'language': 'De', 'description': 'testtt', 'file': '', 'is_online': '1', 'options': '[ { "option_name": "hello", "type": "Select", "values": "tool" } ]'}
+2023-09-24 20:54:29,296 ERROR frappe New Exception collected with id: 2023-09-24 20:54:29.291553-157.90.244.226-276
+Site: taskerpage.com
+Form Dict: {'filters': '[["name","IN",[9]]', 'limit_page_length': 20}
+2023-09-24 20:54:41,989 ERROR frappe New Exception collected with id: 2023-09-24 20:54:41.987240-157.90.244.226-f68
+Site: taskerpage.com
+Form Dict: {'filters': '[["name","IN","[9]"]', 'limit_page_length': 20}
+2023-09-24 20:56:28,327 ERROR frappe New Exception collected with id: 2023-09-24 20:56:28.324862-157.90.244.226-6b6
+Site: taskerpage.com
+Form Dict: {'filters': '[["Customer Profile","name","IN","[9]"]', 'limit_page_length': 20}

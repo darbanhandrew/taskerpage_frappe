@@ -1,0 +1,609 @@
+2023-09-13 16:51:06,305 ERROR frappe New Exception collected with id: 2023-09-13 16:51:06.271540-37.156.8.114-f5f
+Site: erp.visitouriran.com
+Form Dict: {'doc': '{"owner":"Administrator","docstatus":0,"idx":0,"naming_series":"PROJ-.####","project_name":"SAL-ORD-2023-00001","status":"Open","project_type":"External","is_active":"Yes","percent_complete_method":"Task Completion","percent_complete":0,"priority":"Medium","customer":"Tom Brady","sales_order":"SAL-ORD-2023-00001","actual_time":0,"estimated_costing":75000000,"total_costing_amount":0,"total_purchase_cost":0,"company":"Visitouriran","total_sales_amount":15,"total_billable_amount":0,"total_billed_amount":0,"total_consumed_material_cost":0,"gross_margin":0,"per_gross_margin":0,"collect_progress":0,"frequency":"Hourly","from_time":"21:19:28.070441","to_time":"21:19:28.070557","first_email":"21:19:28.070611","second_email":"21:19:28.070657","daily_time_to_send":"21:19:28.070701","day_to_send":"Monday","weekly_time_to_send":"21:19:28.070745","doctype":"Project","users":[{"docstatus":0,"doctype":"Project User","name":"new-project-user-1","__islocal":1,"__unsaved":1,"owner":"Administrator","welcome_email_sent":0,"view_attachments":0,"parent":"new-project-2","parentfield":"users","parenttype":"Project","idx":1,"__unedited":false,"email":"tombrady@gmail.com","image":null,"full_name":"Tom Brady","user":"tombrady@gmail.com"}],"__islocal":1,"__onload":{"load_after_mapping":true},"__unsaved":1,"name":"new-project-2","__last_sync_on":"2023-09-13T16:49:28.159Z","project_template":"Visa Issuance Project","expected_start_date":"2023-09-16","expected_end_date":"2023-09-30","department":"Customer Service","cost_center":"Visitouriran - V"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-13 16:51:11,150 ERROR frappe New Exception collected with id: 2023-09-13 16:51:11.139628-37.156.8.114-535
+Site: erp.visitouriran.com
+Form Dict: {'doc': '{"owner":"Administrator","docstatus":0,"idx":0,"naming_series":"PROJ-.####","project_name":"SAL-ORD-2023-00001","status":"Open","project_type":"External","is_active":"Yes","percent_complete_method":"Task Completion","percent_complete":0,"priority":"Medium","customer":"Tom Brady","sales_order":"SAL-ORD-2023-00001","actual_time":0,"estimated_costing":75000000,"total_costing_amount":0,"total_purchase_cost":0,"company":"Visitouriran","total_sales_amount":15,"total_billable_amount":0,"total_billed_amount":0,"total_consumed_material_cost":0,"gross_margin":0,"per_gross_margin":0,"collect_progress":0,"frequency":"Hourly","from_time":"21:19:28.070441","to_time":"21:19:28.070557","first_email":"21:19:28.070611","second_email":"21:19:28.070657","daily_time_to_send":"21:19:28.070701","day_to_send":"Monday","weekly_time_to_send":"21:19:28.070745","doctype":"Project","users":[{"docstatus":0,"doctype":"Project User","name":"new-project-user-1","__islocal":1,"__unsaved":1,"owner":"Administrator","welcome_email_sent":0,"view_attachments":0,"parent":"new-project-2","parentfield":"users","parenttype":"Project","idx":1,"__unedited":false,"email":"tombrady@gmail.com","image":null,"full_name":"Tom Brady","user":"tombrady@gmail.com"}],"__islocal":1,"__onload":{"load_after_mapping":true},"__unsaved":1,"name":"new-project-2","__last_sync_on":"2023-09-13T16:49:28.159Z","project_template":"Visa Issuance Project","expected_start_date":"2023-09-16","expected_end_date":"2023-09-30","department":"Customer Service","cost_center":"Visitouriran - V"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-13 16:51:23,728 ERROR frappe New Exception collected with id: 2023-09-13 16:51:23.716358-37.156.8.114-19e
+Site: erp.visitouriran.com
+Form Dict: {'doc': '{"owner":"Administrator","docstatus":0,"idx":0,"naming_series":"PROJ-.####","project_name":"SAL-ORD-2023-00001","status":"Open","project_type":"External","is_active":"Yes","percent_complete_method":"Task Completion","percent_complete":0,"priority":"Medium","customer":"Tom Brady","sales_order":"SAL-ORD-2023-00001","actual_time":0,"estimated_costing":75000000,"total_costing_amount":0,"total_purchase_cost":0,"company":"Visitouriran","total_sales_amount":15,"total_billable_amount":0,"total_billed_amount":0,"total_consumed_material_cost":0,"gross_margin":0,"per_gross_margin":0,"collect_progress":0,"frequency":"Hourly","from_time":"21:19:28.070441","to_time":"21:19:28.070557","first_email":"21:19:28.070611","second_email":"21:19:28.070657","daily_time_to_send":"21:19:28.070701","day_to_send":"Monday","weekly_time_to_send":"21:19:28.070745","doctype":"Project","users":[{"docstatus":0,"doctype":"Project User","name":"new-project-user-1","__islocal":1,"__unsaved":1,"owner":"Administrator","welcome_email_sent":0,"view_attachments":0,"parent":"new-project-2","parentfield":"users","parenttype":"Project","idx":1,"__unedited":false,"email":"tombrady@gmail.com","image":null,"full_name":"Tom Brady","user":"tombrady@gmail.com"}],"__islocal":1,"__onload":{"load_after_mapping":true},"__unsaved":1,"name":"new-project-2","__last_sync_on":"2023-09-13T16:49:28.159Z","project_template":"Visa Issuance Project","expected_start_date":"2023-09-16","expected_end_date":"2023-09-30","department":"Customer Service","cost_center":"Visitouriran - V"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2023-09-13 18:25:48,485 ERROR frappe Could not take error snapshot: 'exception'
+Site: erp.visitouriran.com
+Form Dict: {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': None, 'cmd': 'run_doc_method'}
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1060, "Duplicate column name 'Status'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py", line 94, in application
+    response = frappe.api.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 306, in run_doc_method
+    response = doc.run_method(method)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1279, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1261, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 914, in fn
+    return method_object(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query_client.py", line 48, in run
+    self.fetch_results()
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query.py", line 169, in fetch_results
+    self._results = self.variant_controller.fetch_results(additional_filters)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_assisted_query.py", line 132, in fetch_results
+    return InsightsDataSource.get_doc(self.doc.data_source).run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/insights_data_source.py", line 141, in run_query
+    return self.db.run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 54, in run_query
+    return self.execute_query(sql, return_columns=True)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 80, in execute_query
+    res = execute_and_log(connection, sql, self.data_source)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/utils.py", line 266, in execute_and_log
+    result = conn.execute(sql)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1365, in execute
+    return self._exec_driver_sql(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1669, in _exec_driver_sql
+    ret = self._execute_context(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1060, "Duplicate column name 'Status'")
+[SQL: WITH limited AS (SELECT t0.name AS `Name`, date_format(t0.creation, '%%Y-%%m-01') AS `Creation`, t0.status AS `Status`, t0.status AS `Status`, count(*) AS `Count` 
+FROM `tabLead` AS t0 GROUP BY t0.status 
+ LIMIT 10) SELECT * FROM limited LIMIT 1000;]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 106, in get_snapshot
+    call = inspect.formatargvalues(
+  File "/usr/lib/python3.10/inspect.py", line 1443, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.10/inspect.py", line 1440, in convert
+    return formatarg(name) + formatvalue(locals[name])
+KeyError: 'exception'
+2023-09-13 18:28:50,834 ERROR frappe Could not take error snapshot: 'exception'
+Site: erp.visitouriran.com
+Form Dict: {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': None}}, 'cmd': 'run_doc_method'}
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT t0.status AS `Status` \nFROM `tabLead` AS t0 GROUP BY date_format(t0....' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py", line 94, in application
+    response = frappe.api.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 306, in run_doc_method
+    response = doc.run_method(method)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1279, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1261, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 914, in fn
+    return method_object(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query_client.py", line 48, in run
+    self.fetch_results()
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query.py", line 169, in fetch_results
+    self._results = self.variant_controller.fetch_results(additional_filters)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_assisted_query.py", line 132, in fetch_results
+    return InsightsDataSource.get_doc(self.doc.data_source).run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/insights_data_source.py", line 141, in run_query
+    return self.db.run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 54, in run_query
+    return self.execute_query(sql, return_columns=True)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 80, in execute_query
+    res = execute_and_log(connection, sql, self.data_source)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/utils.py", line 266, in execute_and_log
+    result = conn.execute(sql)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1365, in execute
+    return self._exec_driver_sql(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1669, in _exec_driver_sql
+    ret = self._execute_context(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT t0.status AS `Status` \nFROM `tabLead` AS t0 GROUP BY date_format(t0....' at line 1")
+[SQL: WITH limited AS (SELECT date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, t0.status AS `Status`, date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, DISTINCT t0.status AS `Status` 
+FROM `tabLead` AS t0 GROUP BY date_format(t0.creation, '%%Y-%%m-%%d 00:00') 
+ LIMIT 10) SELECT * FROM limited LIMIT 1000;]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 106, in get_snapshot
+    call = inspect.formatargvalues(
+  File "/usr/lib/python3.10/inspect.py", line 1443, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.10/inspect.py", line 1440, in convert
+    return formatarg(name) + formatvalue(locals[name])
+KeyError: 'exception'
+2023-09-13 18:29:16,563 ERROR frappe Could not take error snapshot: 'exception'
+Site: erp.visitouriran.com
+Form Dict: {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': None}}}, 'cmd': 'run_doc_method'}
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT t0.status AS `Status` \nFROM `tabLead` AS t0 GROUP BY date_format(t0....' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py", line 94, in application
+    response = frappe.api.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 306, in run_doc_method
+    response = doc.run_method(method)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1279, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1261, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 914, in fn
+    return method_object(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query_client.py", line 48, in run
+    self.fetch_results()
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query.py", line 169, in fetch_results
+    self._results = self.variant_controller.fetch_results(additional_filters)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_assisted_query.py", line 132, in fetch_results
+    return InsightsDataSource.get_doc(self.doc.data_source).run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/insights_data_source.py", line 141, in run_query
+    return self.db.run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 54, in run_query
+    return self.execute_query(sql, return_columns=True)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 80, in execute_query
+    res = execute_and_log(connection, sql, self.data_source)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/utils.py", line 266, in execute_and_log
+    result = conn.execute(sql)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1365, in execute
+    return self._exec_driver_sql(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1669, in _exec_driver_sql
+    ret = self._execute_context(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT t0.status AS `Status` \nFROM `tabLead` AS t0 GROUP BY date_format(t0....' at line 1")
+[SQL: WITH limited AS (SELECT date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, t0.status AS `Status`, date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, DISTINCT t0.status AS `Status` 
+FROM `tabLead` AS t0 GROUP BY date_format(t0.creation, '%%Y-%%m-%%d 00:00') 
+ LIMIT 10) SELECT * FROM limited LIMIT 1000;]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 106, in get_snapshot
+    call = inspect.formatargvalues(
+  File "/usr/lib/python3.10/inspect.py", line 1443, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.10/inspect.py", line 1440, in convert
+    return formatarg(name) + formatvalue(locals[name])
+KeyError: 'exception'
+2023-09-13 18:29:18,972 ERROR frappe Could not take error snapshot: 'exception'
+Site: erp.visitouriran.com
+Form Dict: {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': None}}}}, 'cmd': 'run_doc_method'}
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT t0.status AS `Status` \nFROM `tabLead` AS t0 GROUP BY date_format(t0....' at line 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py", line 94, in application
+    response = frappe.api.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 306, in run_doc_method
+    response = doc.run_method(method)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1279, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1261, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 914, in fn
+    return method_object(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query_client.py", line 48, in run
+    self.fetch_results()
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query.py", line 169, in fetch_results
+    self._results = self.variant_controller.fetch_results(additional_filters)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_assisted_query.py", line 132, in fetch_results
+    return InsightsDataSource.get_doc(self.doc.data_source).run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/insights_data_source.py", line 141, in run_query
+    return self.db.run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 54, in run_query
+    return self.execute_query(sql, return_columns=True)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 80, in execute_query
+    res = execute_and_log(connection, sql, self.data_source)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/utils.py", line 266, in execute_and_log
+    result = conn.execute(sql)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1365, in execute
+    return self._exec_driver_sql(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1669, in _exec_driver_sql
+    ret = self._execute_context(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.ProgrammingError: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DISTINCT t0.status AS `Status` \nFROM `tabLead` AS t0 GROUP BY date_format(t0....' at line 1")
+[SQL: WITH limited AS (SELECT date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, t0.status AS `Status`, date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, DISTINCT t0.status AS `Status` 
+FROM `tabLead` AS t0 GROUP BY date_format(t0.creation, '%%Y-%%m-%%d 00:00') 
+ LIMIT 10) SELECT * FROM limited LIMIT 1000;]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 106, in get_snapshot
+    call = inspect.formatargvalues(
+  File "/usr/lib/python3.10/inspect.py", line 1443, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.10/inspect.py", line 1440, in convert
+    return formatarg(name) + formatvalue(locals[name])
+KeyError: 'exception'
+2023-09-13 18:30:28,625 ERROR frappe Could not take error snapshot: 'exception'
+Site: erp.visitouriran.com
+Form Dict: {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': {'dt': 'Insights Query', 'dn': 'QRY-0003', 'method': 'run', 'args': None}}}}}, 'cmd': 'run_doc_method'}
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1060, "Duplicate column name 'Creation'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/app.py", line 94, in application
+    response = frappe.api.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 47, in handle
+    data = execute_cmd(cmd)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/__init__.py", line 1622, in call
+    return fn(*args, **newargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/handler.py", line 306, in run_doc_method
+    response = doc.run_method(method)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1279, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 1261, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/model/document.py", line 914, in fn
+    return method_object(*args, **kwargs)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query_client.py", line 48, in run
+    self.fetch_results()
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_query.py", line 169, in fetch_results
+    self._results = self.variant_controller.fetch_results(additional_filters)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_query/insights_assisted_query.py", line 132, in fetch_results
+    return InsightsDataSource.get_doc(self.doc.data_source).run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/insights_data_source.py", line 141, in run_query
+    return self.db.run_query(query)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 54, in run_query
+    return self.execute_query(sql, return_columns=True)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/base_database.py", line 80, in execute_query
+    res = execute_and_log(connection, sql, self.data_source)
+  File "/home/erpgulf/frappe-bench/apps/insights/insights/insights/doctype/insights_data_source/sources/utils.py", line 266, in execute_and_log
+    result = conn.execute(sql)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1365, in execute
+    return self._exec_driver_sql(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1669, in _exec_driver_sql
+    ret = self._execute_context(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1943, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2124, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1900, in _execute_context
+    self.dialect.do_execute(
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erpgulf/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (1060, "Duplicate column name 'Creation'")
+[SQL: WITH limited AS (SELECT date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, t0.status AS `Status`, date_format(t0.creation, '%%Y-%%m-%%d 00:00') AS `Creation`, count(*) AS `Status` 
+FROM `tabLead` AS t0 GROUP BY date_format(t0.creation, '%%Y-%%m-%%d 00:00') 
+ LIMIT 10) SELECT * FROM limited LIMIT 1000;]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 60, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/erpgulf/frappe-bench/apps/frappe/frappe/utils/error.py", line 106, in get_snapshot
+    call = inspect.formatargvalues(
+  File "/usr/lib/python3.10/inspect.py", line 1443, in formatargvalues
+    specs.append(convert(args[i]))
+  File "/usr/lib/python3.10/inspect.py", line 1440, in convert
+    return formatarg(name) + formatvalue(locals[name])
+KeyError: 'exception'
+2023-09-15 03:40:06,226 ERROR frappe New Exception collected with id: 2023-09-15 03:40:06.213720-119.252.170.122-663
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 03:40:07,292 ERROR frappe New Exception collected with id: 2023-09-15 03:40:07.287294-129.126.243.134-8aa
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 03:40:07,751 ERROR frappe New Exception collected with id: 2023-09-15 03:40:07.742357-178.169.252.38-48a
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 03:40:09,615 ERROR frappe New Exception collected with id: 2023-09-15 03:40:09.609985-181.105.238.48-0f3
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 03:40:10,669 ERROR frappe New Exception collected with id: 2023-09-15 03:40:10.657716-179.51.87.24-eee
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 03:40:11,889 ERROR frappe New Exception collected with id: 2023-09-15 03:40:11.884048-123.204.43.144-fae
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 03:40:13,122 ERROR frappe New Exception collected with id: 2023-09-15 03:40:13.114415-91.241.125.78-246
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 04:52:46,609 ERROR frappe New Exception collected with id: 2023-09-15 04:52:46.602986-66.249.64.45-0a6
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 05:09:07,013 ERROR frappe New Exception collected with id: 2023-09-15 05:09:07.001247-45.55.0.31-f74
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 06:00:33,958 ERROR frappe New Exception collected with id: 2023-09-15 06:00:33.953300-95.214.53.99-51c
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 07:25:11,118 ERROR frappe New Exception collected with id: 2023-09-15 07:25:11.110342-87.236.176.98-0e7
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 13:17:30,269 ERROR frappe New Exception collected with id: 2023-09-15 13:17:30.263910-101.36.119.252-12a
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 13:17:32,113 ERROR frappe New Exception collected with id: 2023-09-15 13:17:32.105999-185.233.19.236-e31
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 13:17:32,680 ERROR frappe New Exception collected with id: 2023-09-15 13:17:32.669475-185.233.19.236-bf9
+Site: erp.visitouriran.com
+Form Dict: {}
+2023-09-15 16:51:33,836 ERROR frappe New Exception collected with id: 2023-09-15 16:51:33.829124-162.142.125.213-b8b
+Site: erp.visitouriran.com
+Form Dict: {}

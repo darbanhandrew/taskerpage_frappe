@@ -1,0 +1,9 @@
+{
+ "allow_cors": "*",
+ "db_name": "_c7e7808710c98f83",
+ "db_password": "fQGYD63Ml6sx0RM8",
+ "db_type": "mariadb",
+ "development_mode": 1,
+ "encryption_key": "WY9O9x_zvDyBB_OGryDmIL3uk_uVLkUp91RZjOyNIlc=",
+ "scheduler_interval": "300"
+}

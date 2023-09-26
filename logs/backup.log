@@ -1,0 +1,592 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230910_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-10 14:00:03.682161
+Config  : ./taskerpage.com/private/backups/20230910_140002-taskerpage_com-site_config_backup.json 203.0B
+Database: ./taskerpage.com/private/backups/20230910_140002-taskerpage_com-database.sql.gz         1.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230910_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-10 20:00:03.680749
+Config  : ./taskerpage.com/private/backups/20230910_200002-taskerpage_com-site_config_backup.json 203.0B
+Database: ./taskerpage.com/private/backups/20230910_200002-taskerpage_com-database.sql.gz         1.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230911_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-11 02:00:03.961368
+Config  : ./taskerpage.com/private/backups/20230911_020002-taskerpage_com-site_config_backup.json 203.0B
+Database: ./taskerpage.com/private/backups/20230911_020002-taskerpage_com-database.sql.gz         1.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230911_080001-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-11 08:00:02.985157
+Config  : ./taskerpage.com/private/backups/20230911_080001-taskerpage_com-site_config_backup.json 203.0B
+Database: ./taskerpage.com/private/backups/20230911_080001-taskerpage_com-database.sql.gz         1.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230911_140001-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-11 14:00:02.938430
+Config  : ./taskerpage.com/private/backups/20230911_140001-taskerpage_com-site_config_backup.json 203.0B
+Database: ./taskerpage.com/private/backups/20230911_140001-taskerpage_com-database.sql.gz         1.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230911_200001-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-11 20:00:03.082461
+Config  : ./taskerpage.com/private/backups/20230911_200001-taskerpage_com-site_config_backup.json 203.0B
+Database: ./taskerpage.com/private/backups/20230911_200001-taskerpage_com-database.sql.gz         1.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230912_020001-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-12 02:00:03.162792
+Config  : ./taskerpage.com/private/backups/20230912_020001-taskerpage_com-site_config_backup.json 232.0B
+Database: ./taskerpage.com/private/backups/20230912_020001-taskerpage_com-database.sql.gz         1.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230912_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-12 08:00:03.470104
+Config  : ./taskerpage.com/private/backups/20230912_080002-taskerpage_com-site_config_backup.json 232.0B
+Database: ./taskerpage.com/private/backups/20230912_080002-taskerpage_com-database.sql.gz         1.3MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230912_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-12 14:00:04.167727
+Config  : ./taskerpage.com/private/backups/20230912_140002-taskerpage_com-site_config_backup.json 232.0B
+Database: ./taskerpage.com/private/backups/20230912_140002-taskerpage_com-database.sql.gz         1.3MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230912_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-12 20:00:03.521753
+Config  : ./taskerpage.com/private/backups/20230912_200002-taskerpage_com-site_config_backup.json 232.0B
+Database: ./taskerpage.com/private/backups/20230912_200002-taskerpage_com-database.sql.gz         2.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230913_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-13 02:00:03.916449
+Config  : ./taskerpage.com/private/backups/20230913_020002-taskerpage_com-site_config_backup.json 232.0B
+Database: ./taskerpage.com/private/backups/20230913_020002-taskerpage_com-database.sql.gz         2.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-13 08:00:03.618047
+Config  : ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-database.sql.gz         1.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-13 14:00:04.371664
+Config  : ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-database.sql.gz         3.8MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230913_223003-erp_visitouriran_com-database.sql.gz
+
+Backup Summary for erp.visitouriran.com at 2023-09-13 22:30:04.739941
+Config  : ./erp.visitouriran.com/private/backups/20230913_223003-erp_visitouriran_com-site_config_backup.json 235.0B
+Database: ./erp.visitouriran.com/private/backups/20230913_223003-erp_visitouriran_com-database.sql.gz         1.8MiB
+Backup for Site erp.visitouriran.com has been successfully completed
+File ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033239-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230913_033400-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033934-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_034945-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033527-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_034945-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230912_200002-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230913_021248-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_034335-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230913_020002-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230912_140002-taskerpage_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-13 20:00:06.612301
+Config  : ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-database.sql.gz         3.9MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230914_043002-erp_visitouriran_com-database.sql.gz
+
+Backup Summary for erp.visitouriran.com at 2023-09-14 04:30:03.929072
+Config  : ./erp.visitouriran.com/private/backups/20230914_043002-erp_visitouriran_com-site_config_backup.json 235.0B
+Database: ./erp.visitouriran.com/private/backups/20230914_043002-erp_visitouriran_com-database.sql.gz         1.8MiB
+Backup for Site erp.visitouriran.com has been successfully completed
+File ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033239-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033400-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033934-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_034945-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_013435-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230913_033527-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_013435-taskerpage_com-partial-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230913_021248-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_034335-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230913_020002-taskerpage_com-site_config_backup.json is older than 24 hours
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-14 02:00:05.486432
+Config  : ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-database.sql.gz         3.9MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230914_103002-erp_visitouriran_com-database.sql.gz
+
+Backup Summary for erp.visitouriran.com at 2023-09-14 10:30:04.143029
+Config  : ./erp.visitouriran.com/private/backups/20230914_103002-erp_visitouriran_com-site_config_backup.json 235.0B
+Database: ./erp.visitouriran.com/private/backups/20230914_103002-erp_visitouriran_com-database.sql.gz         1.8MiB
+Backup for Site erp.visitouriran.com has been successfully completed
+File ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230913_033239-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_031516-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_031516-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033400-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230913_033934-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230913_034945-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230914_013435-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_033527-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230913_034335-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230913_080002-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230914_031418-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_031418-taskerpage_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-14 08:00:05.650390
+Config  : ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-database.sql.gz         4.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230914_163002-erp_visitouriran_com-database.sql.gz
+
+Backup Summary for erp.visitouriran.com at 2023-09-14 16:30:03.993073
+Config  : ./erp.visitouriran.com/private/backups/20230914_163002-erp_visitouriran_com-site_config_backup.json 235.0B
+Database: ./erp.visitouriran.com/private/backups/20230914_163002-erp_visitouriran_com-database.sql.gz         1.8MiB
+Backup for Site erp.visitouriran.com has been successfully completed
+File ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_031516-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_031516-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_013435-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_031418-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_031418-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230914_140003-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-14 14:00:05.550478
+Config  : ./taskerpage.com/private/backups/20230914_140003-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230914_140003-taskerpage_com-database.sql.gz         4.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230914_223002-erp_visitouriran_com-database.sql.gz
+
+Backup Summary for erp.visitouriran.com at 2023-09-14 22:30:04.037241
+Config  : ./erp.visitouriran.com/private/backups/20230914_223002-erp_visitouriran_com-site_config_backup.json 235.0B
+Database: ./erp.visitouriran.com/private/backups/20230914_223002-erp_visitouriran_com-database.sql.gz         1.8MiB
+Backup for Site erp.visitouriran.com has been successfully completed
+File ./taskerpage.com/private/backups/20230913_140002-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_031516-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_031516-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_013435-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_140003-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_140003-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_031418-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230914_200004-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-14 20:00:05.535293
+Config  : ./taskerpage.com/private/backups/20230914_200004-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230914_200004-taskerpage_com-database.sql.gz         4.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230915_043003-erp_visitouriran_com-database.sql.gz
+
+Backup Summary for erp.visitouriran.com at 2023-09-15 04:30:04.474135
+Config  : ./erp.visitouriran.com/private/backups/20230915_043003-erp_visitouriran_com-site_config_backup.json 235.0B
+Database: ./erp.visitouriran.com/private/backups/20230915_043003-erp_visitouriran_com-database.sql.gz         1.8MiB
+Backup for Site erp.visitouriran.com has been successfully completed
+File ./taskerpage.com/private/backups/20230913_200004-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230914_031516-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_013435-taskerpage_com-site_config_backup.json is older than 24 hours
+File ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_200004-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_200004-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_140003-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_140003-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_020003-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_031418-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_080004-taskerpage_com-site_config_backup.json is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230915_020004-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-15 02:00:06.015897
+Config  : ./taskerpage.com/private/backups/20230915_020004-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230915_020004-taskerpage_com-database.sql.gz         4.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230915_103003-erp_visitouriran_com-database.sql.gz
+
+b'mysqldump: Got error: 2002: "Can\'t connect to server on \'127.0.0.1\' (115)" when trying to connect\n'
+Backup failed for Site erp.visitouriran.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 718, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+
+File ./erp.visitouriran.com/private/backups/20230914_223002-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230915_103003-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230914_223002-erp_visitouriran_com-site_config_backup.json is recent
+File ./erp.visitouriran.com/private/backups/20230914_103002-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230915_043003-erp_visitouriran_com-site_config_backup.json is recent
+File ./erp.visitouriran.com/private/backups/20230914_163002-erp_visitouriran_com-site_config_backup.json is recent
+File ./erp.visitouriran.com/private/backups/20230914_103002-erp_visitouriran_com-site_config_backup.json is recent
+File ./erp.visitouriran.com/private/backups/20230915_043003-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230914_163002-erp_visitouriran_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230915_103003-erp_visitouriran_com-database.sql.gz
+
+b'mysqldump: Got error: 2002: "Can\'t connect to server on \'127.0.0.1\' (115)" when trying to connect\n'
+Backup failed for Site taskerpage.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 718, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230915_163002-erp_visitouriran_com-database.sql.gz
+
+b'mysqldump: Got error: 2002: "Can\'t connect to server on \'127.0.0.1\' (115)" when trying to connect\n'
+Backup failed for Site erp.visitouriran.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 718, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+
+File ./erp.visitouriran.com/private/backups/20230914_223002-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230915_103003-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230914_223002-erp_visitouriran_com-site_config_backup.json is recent
+File ./erp.visitouriran.com/private/backups/20230915_163002-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230915_043003-erp_visitouriran_com-site_config_backup.json is recent
+File ./erp.visitouriran.com/private/backups/20230914_163002-erp_visitouriran_com-site_config_backup.json is recent
+File ./erp.visitouriran.com/private/backups/20230915_043003-erp_visitouriran_com-database.sql.gz is recent
+File ./erp.visitouriran.com/private/backups/20230914_163002-erp_visitouriran_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230915_163002-erp_visitouriran_com-database.sql.gz
+
+b'mysqldump: Got error: 2002: "Can\'t connect to server on \'127.0.0.1\' (115)" when trying to connect\n'
+Backup failed for Site taskerpage.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 718, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 532, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 584, in new_backup
+    odb.get_backup(older_than, ignore_files, force=force)
+  File "apps/frappe/frappe/utils/backups.py", line 190, in get_backup
+    self.take_dump()
+  File "apps/frappe/frappe/utils/backups.py", line 460, in take_dump
+    frappe.utils.execute_in_shell(command, low_priority=True, check_exit_code=True)
+  File "apps/frappe/frappe/utils/__init__.py", line 489, in execute_in_shell
+    raise Exception("Command failed")
+Exception: Command failed
+
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _c7e7808710c98f83 -p********** _c7e7808710c98f83 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erp.visitouriran.com/private/backups/20230915_223002-erp_visitouriran_com-database.sql.gz
+
+Backup Summary for erp.visitouriran.com at 2023-09-15 22:30:04.257962
+Config  : ./erp.visitouriran.com/private/backups/20230915_223002-erp_visitouriran_com-site_config_backup.json 235.0B
+Database: ./erp.visitouriran.com/private/backups/20230915_223002-erp_visitouriran_com-database.sql.gz         1.8MiB
+Backup for Site erp.visitouriran.com has been successfully completed
+File ./taskerpage.com/private/backups/20230915_020004-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230915_195148-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230915_195034-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230915_194856-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230915_195148-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230914_200004-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230914_200004-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230915_194856-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230915_195034-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230915_195756-taskerpage_com-site_config_backup.json is recent
+File ./taskerpage.com/private/backups/20230915_195756-taskerpage_com-database.sql.gz is recent
+File ./taskerpage.com/private/backups/20230915_020004-taskerpage_com-database.sql.gz is recent
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230915_200004-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-15 20:00:05.968659
+Config  : ./taskerpage.com/private/backups/20230915_200004-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230915_200004-taskerpage_com-database.sql.gz         4.8MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230916_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-16 02:00:04.083922
+Config  : ./taskerpage.com/private/backups/20230916_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230916_020002-taskerpage_com-database.sql.gz         4.9MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230916_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-16 08:00:03.773330
+Config  : ./taskerpage.com/private/backups/20230916_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230916_080002-taskerpage_com-database.sql.gz         4.9MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230916_140001-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-16 14:00:03.591065
+Config  : ./taskerpage.com/private/backups/20230916_140001-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230916_140001-taskerpage_com-database.sql.gz         5.1MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230916_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-16 20:00:04.197936
+Config  : ./taskerpage.com/private/backups/20230916_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230916_200002-taskerpage_com-database.sql.gz         5.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230917_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-17 02:00:03.869790
+Config  : ./taskerpage.com/private/backups/20230917_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230917_020002-taskerpage_com-database.sql.gz         5.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230917_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-17 08:00:04.115692
+Config  : ./taskerpage.com/private/backups/20230917_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230917_080002-taskerpage_com-database.sql.gz         5.3MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230917_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-17 14:00:03.814560
+Config  : ./taskerpage.com/private/backups/20230917_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230917_140002-taskerpage_com-database.sql.gz         5.4MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230917_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-17 20:00:04.578639
+Config  : ./taskerpage.com/private/backups/20230917_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230917_200002-taskerpage_com-database.sql.gz         5.4MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230918_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-18 02:00:04.758081
+Config  : ./taskerpage.com/private/backups/20230918_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230918_020002-taskerpage_com-database.sql.gz         5.4MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230918_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-18 08:00:04.471606
+Config  : ./taskerpage.com/private/backups/20230918_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230918_080002-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230918_140004-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-18 14:00:08.276594
+Config  : ./taskerpage.com/private/backups/20230918_140004-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230918_140004-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230918_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-18 20:00:04.200184
+Config  : ./taskerpage.com/private/backups/20230918_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230918_200002-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230919_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-19 02:00:04.132564
+Config  : ./taskerpage.com/private/backups/20230919_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230919_020002-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230919_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-19 08:00:04.102798
+Config  : ./taskerpage.com/private/backups/20230919_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230919_080002-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230919_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-19 14:00:04.297899
+Config  : ./taskerpage.com/private/backups/20230919_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230919_140002-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230919_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-19 20:00:04.285306
+Config  : ./taskerpage.com/private/backups/20230919_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230919_200002-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230920_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-20 02:00:04.333888
+Config  : ./taskerpage.com/private/backups/20230920_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230920_020002-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230920_080004-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-20 08:00:08.866474
+Config  : ./taskerpage.com/private/backups/20230920_080004-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230920_080004-taskerpage_com-database.sql.gz         6.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230920_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-20 14:00:04.256353
+Config  : ./taskerpage.com/private/backups/20230920_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230920_140002-taskerpage_com-database.sql.gz         6.6MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230920_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-20 20:00:04.208569
+Config  : ./taskerpage.com/private/backups/20230920_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230920_200002-taskerpage_com-database.sql.gz         6.6MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230921_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-21 02:00:04.145789
+Config  : ./taskerpage.com/private/backups/20230921_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230921_020002-taskerpage_com-database.sql.gz         6.6MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230921_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-21 08:00:03.935505
+Config  : ./taskerpage.com/private/backups/20230921_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230921_080002-taskerpage_com-database.sql.gz         6.7MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230921_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-21 14:00:04.719654
+Config  : ./taskerpage.com/private/backups/20230921_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230921_140002-taskerpage_com-database.sql.gz         6.8MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230921_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-21 20:00:04.598239
+Config  : ./taskerpage.com/private/backups/20230921_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230921_200002-taskerpage_com-database.sql.gz         6.9MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230922_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-22 02:00:04.573351
+Config  : ./taskerpage.com/private/backups/20230922_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230922_020002-taskerpage_com-database.sql.gz         6.9MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230922_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-22 08:00:04.548647
+Config  : ./taskerpage.com/private/backups/20230922_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230922_080002-taskerpage_com-database.sql.gz         6.9MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230922_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-22 14:00:04.520989
+Config  : ./taskerpage.com/private/backups/20230922_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230922_140002-taskerpage_com-database.sql.gz         7.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230922_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-22 20:00:05.352165
+Config  : ./taskerpage.com/private/backups/20230922_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230922_200002-taskerpage_com-database.sql.gz         7.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230923_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-23 02:00:04.662901
+Config  : ./taskerpage.com/private/backups/20230923_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230923_020002-taskerpage_com-database.sql.gz         7.1MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230923_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-23 08:00:04.693841
+Config  : ./taskerpage.com/private/backups/20230923_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230923_080002-taskerpage_com-database.sql.gz         7.2MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230923_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-23 14:00:04.812463
+Config  : ./taskerpage.com/private/backups/20230923_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230923_140002-taskerpage_com-database.sql.gz         7.3MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230923_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-23 20:00:05.013320
+Config  : ./taskerpage.com/private/backups/20230923_200002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230923_200002-taskerpage_com-database.sql.gz         7.4MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230924_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-24 02:00:04.310083
+Config  : ./taskerpage.com/private/backups/20230924_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230924_020002-taskerpage_com-database.sql.gz         7.5MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230924_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-24 08:00:04.541098
+Config  : ./taskerpage.com/private/backups/20230924_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230924_080002-taskerpage_com-database.sql.gz         7.6MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230924_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-24 14:00:04.988892
+Config  : ./taskerpage.com/private/backups/20230924_140002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230924_140002-taskerpage_com-database.sql.gz         7.7MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230924_200001-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-24 20:00:07.955914
+Config  : ./taskerpage.com/private/backups/20230924_200001-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230924_200001-taskerpage_com-database.sql.gz         7.8MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230925_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-25 02:00:04.527040
+Config  : ./taskerpage.com/private/backups/20230925_020002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230925_020002-taskerpage_com-database.sql.gz         8.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230925_080002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-25 08:00:05.696850
+Config  : ./taskerpage.com/private/backups/20230925_080002-taskerpage_com-site_config_backup.json 231.0B
+Database: ./taskerpage.com/private/backups/20230925_080002-taskerpage_com-database.sql.gz         8.6MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230925_140002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-25 14:00:05.486691
+Config  : ./taskerpage.com/private/backups/20230925_140002-taskerpage_com-site_config_backup.json 259.0B
+Database: ./taskerpage.com/private/backups/20230925_140002-taskerpage_com-database.sql.gz         9.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230925_200002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-25 20:00:08.057910
+Config  : ./taskerpage.com/private/backups/20230925_200002-taskerpage_com-site_config_backup.json 259.0B
+Database: ./taskerpage.com/private/backups/20230925_200002-taskerpage_com-database.sql.gz         9.0MiB
+Backup for Site taskerpage.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _9b46bcd2180018ee -p********** _9b46bcd2180018ee -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./taskerpage.com/private/backups/20230926_020002-taskerpage_com-database.sql.gz
+
+Backup Summary for taskerpage.com at 2023-09-26 02:00:05.221836
+Config  : ./taskerpage.com/private/backups/20230926_020002-taskerpage_com-site_config_backup.json 259.0B
+Database: ./taskerpage.com/private/backups/20230926_020002-taskerpage_com-database.sql.gz         9.0MiB
+Backup for Site taskerpage.com has been successfully completed
